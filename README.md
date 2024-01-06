@@ -1,2 +1,2 @@
 # My Portfolio
-Check out my portfolio [here](./public/index.html)!
+Check out my portfolio [here](./src/App.js)!
