@@ -1,2 +1,2 @@
-# personal-portfolio
-My personal Portfolio
+# My Portfolio
+Check out my portfolio [here](./public/index.html)!
