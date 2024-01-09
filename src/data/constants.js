@@ -371,7 +371,7 @@ export const education = [
     date: "March 2021 - Present",
     grade: "3 Year Degree",
     desc: "Still studing the Computer Science Degree in UCSC",
-    degree: "ISC(XII), Science with Computer",
+    degree: "Computer Science (BSc)",
   },
   // {
   //   id: 2,
