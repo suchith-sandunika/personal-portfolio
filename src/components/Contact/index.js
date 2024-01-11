@@ -118,7 +118,13 @@ const ContactButton = styled.input`
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
-`
+  cursor: pointer;
+
+  &:hover {
+    background: linear-gradient(225deg, hsla(271, 100%, 70%, 1) 0%, hsla(294, 100%, 70%, 1) 100%);
+    /* Adjust other styles for the hover state as needed */
+  }
+`;
 
 
 
@@ -130,10 +136,12 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
+    emailjs.sendForm('service_9q6bjk3', 'template_f4wkwzb', form.current, 'RQxEF_SnQNQ1A36fN')
       .then((result) => {
         setOpen(true);
         form.current.reset();
+        console.log(result.text);
+        console.log("Message Sent!");
       }, (error) => {
         console.log(error.text);
       });
@@ -161,6 +169,7 @@ const Contact = () => {
           message="Email sent successfully!"
           severity="success"
         />
+        alert("Success!!");
       </Wrapper>
     </Container>
   )
