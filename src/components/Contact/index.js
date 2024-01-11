@@ -169,7 +169,6 @@ const Contact = () => {
           message="Email sent successfully!"
           severity="success"
         />
-        alert("Success!!");
       </Wrapper>
     </Container>
   )
