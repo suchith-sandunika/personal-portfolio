@@ -11,7 +11,7 @@ export const Bio = {
     "I am an undergraduate of University of Colombo School of Computing, with a passion of coding, programming, learning technologies and techniques related to any project. I am also with a positive attitude and a growth mindset and I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/suchith-sandunika",
   resume:
-    "https://drive.google.com/file/d/1eBV2qvERIXBqcU15mRHAnPp1DF9X62XW/view?usp=drive_link",
+    "https://drive.google.com/drive/folders/1owomNXYnJ-I_qn_ZoBfR9aa6-zvvS7iJ?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/suchith-sandunika/",
   twitter: "https://twitter.com/esuchith",
   instagram: "https://www.instagram.com/_suchith_sandunika_/",
