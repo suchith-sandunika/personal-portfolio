@@ -11,7 +11,7 @@ export const Bio = {
     "A person with a strong foundation in Computer Science Fundamentals, a strong mindset and a good devotion to each work I do. I am also with a good      knowledge about English, Programming, Frameworks, technologies and many things related to Software Engineering field.",
   github: "https://github.com/suchith-sandunika",
   resume:
-    "https://drive.google.com/drive/folders/1owomNXYnJ-I_qn_ZoBfR9aa6-zvvS7iJ?usp=drive_link",
+    "https://drive.google.com/file/d/1WLfD4UQUQjv-ZAtd45o231_RvAuhUprT/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/suchith-sandunika",
   twitter: "https://twitter.com/esuchith",
   instagram: "https://www.instagram.com/_suchith_sandunika_",
