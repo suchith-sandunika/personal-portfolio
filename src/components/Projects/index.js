@@ -10,15 +10,15 @@ const Projects = ({openModal,setOpenModal}) => {
   return (
     <Container id="projects">
       <Wrapper>
-        <Title>Projects</Title>
+        <Title>Contributed Projects</Title>
         <Desc>
           Here are the projects I contributed.
         </Desc>
         <ToggleButtonGroup >
           {toggle === 'all' ?
-            <ToggleButton active value="all" onClick={() => setToggle('all')}>All</ToggleButton>
+            <ToggleButton active value="all" onClick={() => setToggle('all')}>All Apps</ToggleButton>
             :
-            <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
+            <ToggleButton value="all" onClick={() => setToggle('all')}>All Apps</ToggleButton>
           }
           <Divider />
           {toggle === 'web app' ?
