@@ -4,14 +4,14 @@ export const Bio = {
     "Full Stack Developer",
     "Programmer",
     "Creative Thinker",
-    "Good Team Player",
-    "Self Learner"
+    "Team Player",
+    "Self-Learner"
   ],
   description:
     "A person with a strong foundation in Computer Science Fundamentals, a strong mindset and a good devotion to each work I do. I am also with a good      knowledge about English, Programming, Frameworks, technologies and many things related to Software Engineering field.",
   github: "https://github.com/suchith-sandunika",
   resume:
-    "https://drive.google.com/file/d/1ty-OBCd0h78baKtGgKWj0Fr-C2znXcQb/view?usp=drive_link",
+    "https://drive.google.com/file/d/1BawL2PtLDNBzjxKqxd9eu5wCrdOdO9Vl/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/suchith-sandunika",
   twitter: "https://twitter.com/esuchith",
   instagram: "https://www.instagram.com/_suchith_sandunika_",
