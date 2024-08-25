@@ -24,8 +24,7 @@ export const skills = [
     skills: [
       {
         name: "React Js",
-        image:
-      "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png",
       },
       {
         name: "HTML",
@@ -62,7 +61,7 @@ export const skills = [
     skills: [
       {
         name: "Java Spring Boot",
-        image: "https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/768px-Spring_Boot.svg.png?20230616230349",
       },
       {
         name: "Node Js",
@@ -70,8 +69,7 @@ export const skills = [
       },
       {
         name: "Express Js",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
+        image:"https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
       },
       {
         name: "Electron Js",
@@ -145,8 +143,33 @@ export const skills = [
       {
         name: "GitHub",
         image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/270px-GitHub_Invertocat_Logo.svg.png",
       },
+      {
+        name: "ClickUp",
+        image:
+          "https://logosandtypes.com/wp-content/uploads/2023/03/clickup.svg",
+      },
+      {
+        name: "Slack",
+        image:
+          "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/306_Slack_logo-1024.png",
+      },
+      {
+        name: "Trello",
+        image:
+          "https://seeklogo.com/images/T/trello-logo-CE7B690E34-seeklogo.com.png",
+      },
+      {
+        name: "Linux",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/f/f1/Icons8_flat_linux.svg",
+      }
+    ],
+  },
+  {
+    title: "Tools",
+    skills: [
       {
         name: "VS Code",
         image:
@@ -160,33 +183,13 @@ export const skills = [
       {
         name: "Intellij Idea",
         image:
-          "https://www.simplilearn.com/ice9/free_resources_article_thumb/Intellij_IDEA.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/768px-IntelliJ_IDEA_Icon.svg.png",
       },
       {
         name: "WebStorm",
         image:
           "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*rCK7fhfY9jb-osA77oaOAQ.png",
       },
-      {
-        name: "ClickUp",
-        image:
-          "https://logosandtypes.com/wp-content/uploads/2023/03/clickup.svg",
-      },
-      {
-        name: "Slack",
-        image:
-          "https://cdn.mos.cms.futurecdn.net/SDDw7CnuoUGax6x9mTo7dd-970-80.jpg.webp",
-      },
-      {
-        name: "Trello",
-        image:
-          "https://1000logos.net/wp-content/uploads/2021/05/Trello-logo-768x432.png",
-      },
-      {
-        name: "Linux",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/f/f1/Icons8_flat_linux.svg",
-      }
     ],
   },
 ];
