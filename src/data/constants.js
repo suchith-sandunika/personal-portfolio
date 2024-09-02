@@ -23,7 +23,7 @@ export const skills = [
     title: "Frontend",
     skills: [
       {
-        name: "React Js",
+        name: "React.js",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png",
       },
       {
@@ -64,15 +64,15 @@ export const skills = [
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/768px-Spring_Boot.svg.png?20230616230349",
       },
       {
-        name: "Node Js",
+        name: "Node.js",
         image:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/885px-Node.js_logo.svg.png",
       },
       {
-        name: "Express Js",
+        name: "Express.js",
         image:"https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
       },
       {
-        name: "Electron Js",
+        name: "Electron.js",
         image:
           "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*O6KluMvEBZ1cBL3EPo4tig.png",
       }
@@ -203,7 +203,7 @@ export const experiences = [
     date: "November 2023 - May 2024",
     desc: "Worked on the company Projects 'Coop-Mis', a Microfinance bank application for Sanasa Banks and Cooperative Societies.",
     skills: [
-      "Electron Js",
+      "Electron.js",
       "JavaScript",
       "Tailwind CSS",
       "Bootstrap CSS",
@@ -293,11 +293,11 @@ export const projects = [
       "A Microfinance System for Sanasa Banks and Sanasa Banks and Cooperative Societies. Contributed to system frontend and backend.",
     image:"https://lmd.lk/wp-content/uploads/2021/08/614__DSC5981-1.jpg",
     tags: [
-      "Electron Js",
+      "Electron.js",
+      "JavaScript",
       "HTML",
       "Bootstrap CSS",
       "Maria DB",
-      "JavaScript",
       "jQuery",
       "Github"
     ],
@@ -313,7 +313,7 @@ export const projects = [
     image:"https://www.tvi-mp3.com/blog/wp-content/uploads/2022/09/Automotive-Social-Media-2-768x384.png",
     tags: [
       "Java Spring Boot",
-      "React Js",
+      "React.js",
       "CSS",
       "Neo 4j",
       "Postman",
@@ -354,7 +354,7 @@ export const projects = [
     description:"A web application related to a Book store System. Contributed to the system and fixing the bugs.",
     image:"https://us.123rf.com/450wm/rumkavodki/rumkavodki2404/rumkavodki240400128/228856085-welcoming-bookstore-facade-vector-illustration.jpg?ver=6",
     tags: [
-      "React Js", "Node Ja", "Express Js", "MongoDB", "JavaScript", "Tailwind CSS", "Github"
+      "React.js", "Node.js", "Express.js", "MongoDB", "JavaScript", "Tailwind CSS", "Github"
     ],
     category: "web app",
     github: "https://github.com/suchith-sandunika/Book-Store.git",
@@ -378,7 +378,7 @@ export const projects = [
     description:"A simple application related to find weather conditions and location. Contributed to the system and fixing the bugs.",
     image:"https://store-images.s-microsoft.com/image/apps.60423.13664108468657913.8218191b-9e2a-49f4-8455-3c027b985a5d.30a38556-a2f8-4e20-835b-d8d914491b8b?h=307",
     tags: [
-      "Node Js", "Express Js", "EJs", "OpenWeather API", "Github"
+      "Node.js", "Express.js", "Ejs", "OpenWeather API", "Github"
     ],
     category: "web app",
     github: "https://github.com/suchith-sandunika/Weather-App.git",
@@ -391,7 +391,7 @@ export const projects = [
       "A web application related to a library management system and it's operations. Contributed to this system by implementing the system frontend and backend.",
     image:"https://www.skoolbeep.com/blog/wp-content/uploads/2020/12/WHAT-IS-THE-PURPOSE-OF-A-LIBRARY-MANAGEMENT-SYSTEM-min.png",
     tags: [
-      "React Js", "Node Ja", "Express Js", "MongoDB", "Github"
+      "React.js", "Node.js", "Express.js", "MongoDB", "Github"
     ],
     category: "web app",
     github: "https://github.com/C-Senanayake/Library-Management-System.git",
