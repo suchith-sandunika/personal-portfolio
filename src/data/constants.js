@@ -197,7 +197,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/416118889_1083495069288741_7234551694157585871_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=o9hcj4n_yRYQ7kNvgGgTIKj&_nc_ht=scontent.fcmb1-2.fna&oh=00_AYCQlxaf4xlKmBt7K9kn5_sUmkU2XB1nH2e5ge-cy99Pkg&oe=66DBDD5E",
+    img: "https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/416118889_1083495069288741_7234551694157585871_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=ResCzDAbXcoQ7kNvgHKp7yB&_nc_ht=scontent.fcmb1-2.fna&_nc_gid=A2wBqobffcJBgEJLz87OSYv&oh=00_AYC4itBgmmOMYwCnV9JaGorf9_cccf_Uux4QGtUdlOW--w&oe=66E5885E",
     role: "Fullstack Software Engineering Intern",
     company: "Rajida Holdings (Pvt) Ltd.",
     date: "November 2023 - May 2024",
@@ -221,7 +221,7 @@ export const experiences = [
 export const education = [
   {
     id: 1,
-    img: "https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/327162517_582127033332355_5263584791571388767_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=uXw6oj4wLWwQ7kNvgGvNzfW&_nc_ht=scontent.fcmb1-2.fna&oh=00_AYBfZOlLYsTewVbAC_NuhsV4RV3irIgTlEJeRnL3EQsMzQ&oe=66DBD6C3",
+    img: "https://scontent.fcmb2-2.fna.fbcdn.net/v/t39.30808-6/327162517_582127033332355_5263584791571388767_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=hytGrpOrnb8Q7kNvgHr2fW5&_nc_ht=scontent.fcmb2-2.fna&_nc_gid=AFw7zAcRPXoYmxPPozze2CW&oh=00_AYAoVxeHNWRWuM72G-GIfQZfkFGHEDGgJbyF7G4BJQ534w&oe=66E5BA03",
     school: "University of Colombo School of Computing",
     date: "March 2021 - Present",
     grade: "3 Year General Degree",
@@ -230,7 +230,7 @@ export const education = [
   }, 
   {
     id: 1,
-    img: "https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/352773399_508581478060981_7238410404797149509_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=QLh3NdWlZwYQ7kNvgFIWrLX&_nc_ht=scontent.fcmb1-2.fna&oh=00_AYDqWJOttkEIwuFgFAOGZvoENMn3jZnWocmV21dJssxCjw&oe=66DBEF49",
+    img: "https://scontent.fcmb2-2.fna.fbcdn.net/v/t39.30808-6/352773399_508581478060981_7238410404797149509_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=IXBu0mwS3-QQ7kNvgFFo-eI&_nc_ht=scontent.fcmb2-2.fna&_nc_gid=AnWvOILeMHD9FRULN2M9UGS&oh=00_AYA8Xa6oFEVuI7uKdwasEHcvbUSUVXMyBnc92dfc-07RZA&oe=66E59A49",
     school:"Great Learning Accedamy",
     date: "November 2023 - Present",
     grade: "Basic to Advanced",
@@ -248,7 +248,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/313171206_561012919361098_8893449639025274118_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=FG0kuzSE75wQ7kNvgG7-13a&_nc_ht=scontent.fcmb1-2.fna&oh=00_AYBxVnc6-jiNCsHUsXjBy-MOko1zItBkv3cP5AUIGIG7Kg&oe=66DBEDE3",
+    img: "https://scontent.fcmb2-2.fna.fbcdn.net/v/t39.30808-6/313171206_561012919361098_8893449639025274118_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=GP53Qyj3KK8Q7kNvgE0RfSf&_nc_ht=scontent.fcmb2-2.fna&_nc_gid=Ait-ridILaWg-AZp14xw5JO&oh=00_AYDWHyg-9uaPtjy3Dx2DC92hnLgu2Yk7hkliFuu-vfjtkQ&oe=66E598E3",
     school:"Sololearn Accademy",
     date: "August 2023 - Present",
     grade: "Basic to Advanced",
@@ -257,7 +257,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/414911107_753419660154651_3015772147550717311_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=BwV-Lag_3A4Q7kNvgEVZbqB&_nc_ht=scontent.fcmb1-2.fna&oh=00_AYCQ2bBBvyrxcHN6Lj1hiGgL7YVoXWOtl0FT9rMKb07cCg&oe=66DC03C8",
+    img: "https://scontent.fcmb2-2.fna.fbcdn.net/v/t39.30808-6/414911107_753419660154651_3015772147550717311_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=9czUgEGbZ3IQ7kNvgEXTCFg&_nc_ht=scontent.fcmb2-2.fna&oh=00_AYDoHoSIgnqbUeurilFgzAYQMMts4OgCJ5ZXh9tis3MK5Q&oe=66E5AEC8",
     school:"ICBT Galle Campus",
     date: "August 2020 - February 2021",
     grade: "General ",
@@ -275,7 +275,7 @@ export const education = [
   // }, 
   {
     id: 0,
-    img: "https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/426545622_788114116684701_5217753112633883734_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=zdAYgInfCR0Q7kNvgHUfOeM&_nc_ht=scontent.fcmb1-2.fna&oh=00_AYDabhQkcUpF18gQiSxzjfQpjHT_KyxIzxxTT8nqsCyYww&oe=66DBE911",
+    img: "https://scontent.fcmb2-2.fna.fbcdn.net/v/t39.30808-6/426545622_788114116684701_5217753112633883734_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=WPICmUmkmJQQ7kNvgE2IUWl&_nc_ht=scontent.fcmb2-2.fna&oh=00_AYCDb5_zV8vnOaa3dOyjT77V0bwAXW2CKxuxnaEk36fGGQ&oe=66E59411",
     school: "Richmond College Galle",
     date: "2005 January - 2019 August",
     grade: "Grade 1 to 13 (A/L's)",
