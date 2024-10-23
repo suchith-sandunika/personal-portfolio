@@ -1,14 +1,18 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.bf538fe7.css",
-    "main.js": "/personal-portfolio/static/js/main.ba8dba3c.js",
+    "main.js": "/personal-portfolio/static/js/main.44eceb69.js",
+    "static/media/RichmondCollege.jpg": "/personal-portfolio/static/media/RichmondCollege.055621c3c515fc9afef3.jpg",
+    "static/media/Rajida.jpg": "/personal-portfolio/static/media/Rajida.e7944b88ab94275c4f0d.jpg",
+    "static/media/UCSC.jpg": "/personal-portfolio/static/media/UCSC.ca11931bf9b2602286f9.jpg",
+    "static/media/ICBTCampus.jpg": "/personal-portfolio/static/media/ICBTCampus.b64291b2f2d4e223175c.jpg",
     "static/media/Pic.jpg": "/personal-portfolio/static/media/Pic.3741acb972c3c321b12e.jpg",
     "index.html": "/personal-portfolio/index.html",
     "main.bf538fe7.css.map": "/personal-portfolio/static/css/main.bf538fe7.css.map",
-    "main.ba8dba3c.js.map": "/personal-portfolio/static/js/main.ba8dba3c.js.map"
+    "main.44eceb69.js.map": "/personal-portfolio/static/js/main.44eceb69.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.ba8dba3c.js"
+    "static/js/main.44eceb69.js"
   ]
 }
