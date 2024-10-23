@@ -1,3 +1,8 @@
+import RichmondCollege from '../images/RichmondCollege.jpg';
+import ICBT from '../images/ICBTCampus.jpg';
+import UCSC from '../images/UCSC.jpg';
+import Rajida from '../images/Rajida.jpg';
+
 export const Bio = {
   name: "Suchith Sandunika",
   roles: [
@@ -201,7 +206,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/416118889_1083495069288741_7234551694157585871_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=TgWSCJGBl4IQ7kNvgGtenTZ&_nc_ht=scontent.fcmb1-2.fna&_nc_gid=A_oIDAn6GGUYzQfXIrQDzhR&oh=00_AYCp7_IgZAWp2OqKlRoa3xjeQx4A8sJB3ph9ZSzohnTdsw&oe=66FAA05E",
+    img: Rajida,
     role: "Fullstack Software Engineering Intern",
     company: "Rajida Holdings (Pvt) Ltd.",
     date: "November 2023 - May 2024",
@@ -225,11 +230,11 @@ export const experiences = [
 export const education = [
   {
     id: 1,
-    img: "https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/327162517_582127033332355_5263584791571388767_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=UfT78_AP9a0Q7kNvgGSXMKp&_nc_ht=scontent.fcmb1-2.fna&_nc_gid=Av1f1XuJkOifcbUqJJRBZv0&oh=00_AYCeIFz4BVw7B3p2nx9Ay9_V_mn9JhiC5XQFv-iKSaMshQ&oe=66FAD203",
+    img: UCSC,
     school: "University of Colombo School of Computing",
-    date: "March 2021 - Present",
-    grade: "3 Year General Degree",
-    desc: "Graduate - Computer Science (BSc)",
+    date: "March 2021 - September 2024",
+    grade: "3 Year Degree",
+    desc: "Graduated With General Class",
     degree: "Computer Science (BSc)",
   }, 
   // {
@@ -261,11 +266,11 @@ export const education = [
   // },
   {
     id: 1,
-    img: "https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/326209185_903502020833556_8995923698374026336_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Amx1dW_xp0AQ7kNvgHBh810&_nc_ht=scontent.fcmb1-2.fna&_nc_gid=AikgerOlge1D5uvuyGUklfu&oh=00_AYCwFF9CtF0Oqz0tp5qZvY_MPpOVfqlfDYRTCl1ct_fF_Q&oe=66FACE63",
+    img: ICBT,
     school:"ICBT Galle Campus",
     date: "August 2020 - February 2021",
     grade: "General ",
-    desc: "Fundementals of ICT & Programming",
+    desc: "Fundementals of ICT & Programming (Fundamentals of ICT, Progamming, Python)",
     degree: "Fundementals of ICT (DICT)",
   }, 
   // {
@@ -279,11 +284,11 @@ export const education = [
   // }, 
   {
     id: 0,
-    img: "https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/426545622_788114116684701_5217753112633883734_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=gQmI1e5aFaUQ7kNvgFVf32R&_nc_ht=scontent.fcmb1-2.fna&_nc_gid=Au5fHpHiPMzxXY_rJEv4c8H&oh=00_AYCmJPjH6inI09TYVfEbx_AXd-ExFnBSCEorGNy84QGdcA&oe=66FAAC11",
+    img: RichmondCollege,
     school: "Richmond College Galle",
     date: "2005 January - 2019 August",
     grade: "Grade 1 to 13 (A/L's)",
-    desc: "GCE A/L (2019) - Two 'A's and one 'C', Z-Score - 1.2297) GCE O/L (2015) - Seven 'A's, one 'B' and one 'C'",
+    desc: "GCE A/L (2019) - Two 'A's and one 'C', Z-Score - 1.2297 & GCE O/L (2015) - Seven 'A's, one 'B' and one 'C'",
     degree: "Primary Education from Grade 1 to 13",
   },
 ];
