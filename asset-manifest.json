@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.bf538fe7.css",
-    "main.js": "/personal-portfolio/static/js/main.44eceb69.js",
+    "main.js": "/personal-portfolio/static/js/main.de8aae4a.js",
     "static/media/RichmondCollege.jpg": "/personal-portfolio/static/media/RichmondCollege.055621c3c515fc9afef3.jpg",
     "static/media/Rajida.jpg": "/personal-portfolio/static/media/Rajida.e7944b88ab94275c4f0d.jpg",
+    "static/media/Suchith_Epa.jpeg": "/personal-portfolio/static/media/Suchith_Epa.272f44595e0c8fcd4c57.jpeg",
     "static/media/UCSC.jpg": "/personal-portfolio/static/media/UCSC.ca11931bf9b2602286f9.jpg",
     "static/media/ICBTCampus.jpg": "/personal-portfolio/static/media/ICBTCampus.b64291b2f2d4e223175c.jpg",
-    "static/media/Pic.jpg": "/personal-portfolio/static/media/Pic.3741acb972c3c321b12e.jpg",
     "index.html": "/personal-portfolio/index.html",
     "main.bf538fe7.css.map": "/personal-portfolio/static/css/main.bf538fe7.css.map",
-    "main.44eceb69.js.map": "/personal-portfolio/static/js/main.44eceb69.js.map"
+    "main.de8aae4a.js.map": "/personal-portfolio/static/js/main.de8aae4a.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.44eceb69.js"
+    "static/js/main.de8aae4a.js"
   ]
 }
