@@ -14,13 +14,13 @@ export const Bio = {
     "Problem Solver",
     "Creative Thinker",
     "Self-Learner",
-    "Team Player"
+    "Team Player",
+    "Hard Worker"
   ],
   description:
     "A person with a strong foundation in Computer Science Fundamentals, a strong mindset and a good devotion to each work I do. I am also with a good      knowledge about English, Programming, Frameworks, technologies and many things related to Software Engineering field.",
   github: "https://github.com/suchith-sandunika",
-  resume:
-    "https://drive.google.com/file/d/1LCGwUHaJSzI0--kTE5W-6RBKJS7f_CWT/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1LCGwUHaJSzI0--kTE5W-6RBKJS7f_CWT/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/suchith-sandunika",
   twitter: "https://twitter.com/esuchith",
   instagram: "https://www.instagram.com/_suchith_sandunika_",
@@ -36,6 +36,18 @@ export const skills = [
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png",
       },
       {
+        name: "Angular",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/512px-Angular_full_color_logo.svg.png",
+      },
+      {
+        name: "Next.js",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/394px-Nextjs-logo.svg.png",
+      },
+      {
+        name: "Redux",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Redux_Logo.png/800px-Redux_Logo.png",
+      },
+      {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
       },
@@ -46,8 +58,11 @@ export const skills = [
       },
       {
         name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      },
+      {
+        name: "TypeScript",
+        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png",
       },
       {
         name: "Bootstrap",
@@ -81,9 +96,17 @@ export const skills = [
         image:"https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
       },
       {
+        name: "Nest.js",
+        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/NestJS-logo-wordmark.svg/220px-NestJS-logo-wordmark.svg.png",
+      },
+      {
         name: "Electron.js",
         image:
           "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*O6KluMvEBZ1cBL3EPo4tig.png",
+      },
+      {
+        name: "Json",
+        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/JSON_vector_logo.svg/160px-JSON_vector_logo.svg.png",
       }
     ],
   },
@@ -171,8 +194,7 @@ export const skills = [
       },
       {
         name: "Linux",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/f/f1/Icons8_flat_linux.svg",
+        image:"https://upload.wikimedia.org/wikipedia/commons/f/f1/Icons8_flat_linux.svg",
       }
     ],
   },
@@ -198,6 +220,15 @@ export const skills = [
         name: "WebStorm",
         image:
           "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*rCK7fhfY9jb-osA77oaOAQ.png",
+      },
+      {
+        name: "MongoDB Compass",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Mongodb.png/800px-Mongodb.png",
+      },
+      {
+        name: "MySQL Workbench",
+        image:"https://upload.wikimedia.org/wikipedia/de/thumb/d/dd/MySQL_logo.svg/250px-MySQL_logo.svg.png",
       },
     ],
   },
@@ -273,15 +304,15 @@ export const education = [
     desc: "Fundementals of ICT & Programming (Fundamentals of ICT, Progamming, Python)",
     degree: "Fundementals of ICT (DICT)",
   }, 
-  // {
-  //   id: 1,
-  //   img: "https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/300188205_194746799574094_3581590344426579912_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=1LRM29PuufcQ7kNvgHSTjw-&_nc_ht=scontent.fcmb1-2.fna&oh=00_AYDaTM--c76yh14y9C6wbnWTCPNVk1l2K6BOnKNLDTF0zQ&oe=66DC012E",
-  //   school:"Aquinas College Galle",
-  //   date: "September 2019 - January 2020",
-  //   grade: "Intermediate",
-  //   desc: "English writing, Grammar, Literature and Spoken English",
-  //   degree: "English",
-  // }, 
+  {
+    id: 1,
+    img: "https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Aquinas_College_of_Higher_Studies_Logo.png/220px-Aquinas_College_of_Higher_Studies_Logo.png",
+    school:"Aquinas College Galle",
+    date: "September 2019 - January 2020",
+    grade: "Intermediate",
+    desc: "English writing, Grammar, Literature and Spoken English",
+    degree: "English",
+  }, 
   {
     id: 0,
     img: RichmondCollege,
@@ -357,6 +388,25 @@ export const projects = [
     github: "https://github.com/SandaliKavi99/To-Do-App.git",
   },
   {
+    id: 1,
+    title: "LearnGuide",
+    date: "October 2023 - December 2023",
+    description:"A simple Full-Stack App for related to a learning platform for students and teachers to promote there courses.",
+    image: "https://d1ng1bucl7w66k.cloudfront.net/ghost-blog/2022/01/Screen-Shot-2022-01-27-at-11.50.56-AM.png",
+    tags: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Redux.js",
+      "Material UI",
+      "Paypal",
+      "Github",
+    ],
+    category: "web app",
+    github: "https://github.com/suchith-sandunika/LearnGuide-Backend.git",
+  },
+  {
     id: 9,
     title: "Book Store",
     date: "June 2024 - August 2024",
@@ -373,7 +423,7 @@ export const projects = [
     title: "Movie App",
     date: "August 2024 - Present",
     description:"A web application related to a Movie Details Store to view movies, watch trailers & add reviews. Contributed to the system and fixing the bugs.",
-    image:"https://www.atoallinks.com/wp-content/uploads/2023/06/20-Best-Live-TV-Streaming-Android-Apps.jpg",
+    image:"https://mostaql.hsoubcdn.com/uploads/thumbnails/833004/63cea3a252b0b/1.jpg",
     tags: [
       "Spring Boot", "React.js", "Bootstrap", "MongoDB", "JavaScript", "Github"
     ],
@@ -404,6 +454,19 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/C-Senanayake/Library-Management-System.git",
+  },
+  {
+    id: 9,
+    title: "Bicycle Product Landing Page",
+    date: "September 2024 - November 2024",
+    description:
+      "A simple application related to a Roll a Dice Scenario. Implemented the whole application.",
+    image:"https://img.freepik.com/premium-vector/back-bike-landing-page-template_103645-116.jpg?w=900",
+    tags: [
+      "React.js", "Bootstrap", "JavaScript", "Github"
+    ],
+    category: "web app",
+    github: "https://github.com/suchith-sandunika/Landing-Page.git",
   },
   {
     id: 9,
