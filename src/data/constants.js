@@ -460,7 +460,7 @@ export const projects = [
     title: "Bicycle Product Landing Page",
     date: "September 2024 - November 2024",
     description:
-      "A simple application related to a Roll a Dice Scenario. Implemented the whole application.",
+      "A simple application related to a Bicycle Product promoting page (for Lumuala(not official)).",
     image:"https://img.freepik.com/premium-vector/back-bike-landing-page-template_103645-116.jpg?w=900",
     tags: [
       "React.js", "Bootstrap", "JavaScript", "Github"
