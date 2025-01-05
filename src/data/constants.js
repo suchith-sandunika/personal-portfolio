@@ -390,7 +390,7 @@ export const projects = [
   {
     id: 1,
     title: "LearnGuide",
-    date: "October 2023 - December 2023",
+    date: "October 2024 - December 2024",
     description:"A simple Full-Stack App for related to a learning platform for students and teachers to promote there courses.",
     image: "https://d1ng1bucl7w66k.cloudfront.net/ghost-blog/2022/01/Screen-Shot-2022-01-27-at-11.50.56-AM.png",
     tags: [
