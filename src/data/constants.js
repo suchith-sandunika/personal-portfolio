@@ -421,7 +421,7 @@ export const projects = [
   {
     id: 9,
     title: "Movie App",
-    date: "August 2024 - Present",
+    date: "August 2024 - October 2024",
     description:"A web application related to a Movie Details Store to view movies, watch trailers & add reviews. Contributed to the system and fixing the bugs.",
     image:"https://mostaql.hsoubcdn.com/uploads/thumbnails/833004/63cea3a252b0b/1.jpg",
     tags: [
@@ -433,7 +433,7 @@ export const projects = [
   {
     id: 9,
     title: "Weather App",
-    date: "July 2024 - Present",
+    date: "July 2024 - September 2024",
     description:"A simple application related to find weather conditions and location. Contributed to the system and fixing the bugs.",
     image:"https://store-images.s-microsoft.com/image/apps.60423.13664108468657913.8218191b-9e2a-49f4-8455-3c027b985a5d.30a38556-a2f8-4e20-835b-d8d914491b8b?h=307",
     tags: [
