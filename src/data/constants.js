@@ -20,7 +20,7 @@ export const Bio = {
   description:
     "A person with a strong foundation in Computer Science Fundamentals, a strong mindset and a good devotion to each work I do. I am also with a good      knowledge about English, Programming, Frameworks, technologies and many things related to Software Engineering field.",
   github: "https://github.com/suchith-sandunika",
-  resume: "https://drive.google.com/file/d/1LCGwUHaJSzI0--kTE5W-6RBKJS7f_CWT/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1_FUWaXZekcWkskyhpAKCLB1zkxj-9qc1/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/suchith-sandunika",
   twitter: "https://twitter.com/esuchith",
   instagram: "https://www.instagram.com/_suchith_sandunika_",
@@ -202,6 +202,10 @@ export const skills = [
     title: "Tools",
     skills: [
       {
+        name: "Docker",
+        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Docker_%28container_engine%29_logo_%28cropped%29.png/120px-Docker_%28container_engine%29_logo_%28cropped%29.png?20230309095311",
+      },
+      {
         name: "VS Code",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
@@ -210,6 +214,11 @@ export const skills = [
         name: "Postman",
         image:
           "https://iconape.com/wp-content/png_logo_vector/postman.png",
+      },
+      {
+        name: "Insomnia",
+        image:
+          "https://s3.amazonaws.com/s3.roaringapps.com/assets/icons/1561251841927-Insomnia.png",
       },
       {
         name: "Intellij Idea",
@@ -229,7 +238,7 @@ export const skills = [
       {
         name: "MySQL Workbench",
         image:"https://upload.wikimedia.org/wikipedia/de/thumb/d/dd/MySQL_logo.svg/250px-MySQL_logo.svg.png",
-      },
+      }
     ],
   },
 ];
@@ -405,6 +414,25 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/suchith-sandunika/LearnGuide-Backend.git",
+  },
+  {
+    id: 1,
+    title: "BookFiezta Online Book Store",
+    date: "Januray 2025 - February 2025",
+    description:"A Full Stack Application related to an online book store for users to buy books, rate books, add reviews about books, etc.",
+    image: "https://media.licdn.com/dms/image/v2/D5612AQGIG3RBJJJoAA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1693300567782?e=1746057600&v=beta&t=SgSUZG5rFm55yL8iFi3rMSA22IPunEpOPJAAdB3HFwg",
+    tags: [
+      "Angular",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "TypeScript",
+      "JavaScript",
+      "Paypal",
+      "Github",
+    ],
+    category: "web app",
+    github: "https://github.com/suchith-sandunika/BookFiezta-Frontend.git",
   },
   {
     id: 9,
