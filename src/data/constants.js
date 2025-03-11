@@ -20,7 +20,7 @@ export const Bio = {
   description:
     "A person with a strong foundation in Computer Science Fundamentals, a strong mindset and a good devotion to each work I do. I am also with a good      knowledge about English, Programming, Frameworks, technologies and many things related to Software Engineering field.",
   github: "https://github.com/suchith-sandunika",
-  resume: "https://drive.google.com/file/d/1_FUWaXZekcWkskyhpAKCLB1zkxj-9qc1/view?usp=drive_link",
+  resume: "https://drive.google.com/file/d/1HXIyRquq3qqBKwq7nsqHv8QeloAPnBZl/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/suchith-sandunika",
   twitter: "https://twitter.com/esuchith",
   instagram: "https://www.instagram.com/_suchith_sandunika_",
@@ -84,6 +84,14 @@ export const skills = [
     title: "Backend",
     skills: [
       {
+        name: "REST",
+        image: "https://www.javacodegeeks.com/wp-content/uploads/2024/01/rest-api-icon-300x246.png",
+      },
+      {
+        name: "GraphQL",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/220px-GraphQL_Logo.svg.png",
+      },
+      {
         name: "Java Spring Boot",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/768px-Spring_Boot.svg.png?20230616230349",
       },
@@ -94,6 +102,10 @@ export const skills = [
       {
         name: "Express.js",
         image:"https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
+      },
+      {
+        name: "Apollo Server",
+        image:"https://avatars.githubusercontent.com/u/17189275?v=4",
       },
       {
         name: "Nest.js",
@@ -126,6 +138,11 @@ export const skills = [
         name: "MySQL",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+      },
+      {
+        name: "PostgreSQL",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/220px-Postgresql_elephant.svg.png",
       },
       {
         name: "MongoDB",
@@ -238,6 +255,14 @@ export const skills = [
       {
         name: "MySQL Workbench",
         image:"https://upload.wikimedia.org/wikipedia/de/thumb/d/dd/MySQL_logo.svg/250px-MySQL_logo.svg.png",
+      },
+      {
+        name: "pgAdmin",
+        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/220px-Postgresql_elephant.svg.png",
+      },
+      {
+        name: "XAMPP",
+        image:"https://upload.wikimedia.org/wikipedia/en/thumb/7/78/XAMPP_logo.svg/120px-XAMPP_logo.svg.png",
       }
     ],
   },
