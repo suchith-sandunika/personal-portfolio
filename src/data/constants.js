@@ -2,6 +2,7 @@ import RichmondCollege from '../images/RichmondCollege.jpg';
 import ICBT from '../images/ICBTCampus.jpg';
 import UCSC from '../images/UCSC.jpg';
 import Rajida from '../images/Rajida.jpg';
+import Gamage from '../images/Gamage.jpg';
 
 export const Bio = {
   name: "Suchith Sandunika",
@@ -271,9 +272,27 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: Gamage,
+    role: "Fullstack Software Engineering Intern",
+    company: "Gamage Recruiters (Pvt) Ltd - IT Team",
+    date: "November 2024 - May 2025",
+    desc: "Worked on the company Projects, an employee management system for the company and the official website of the company.",
+    skills: [
+      "React.js",
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "MySQL",
+      "CSS",
+      "GitHub",
+      "Postman"
+    ],
+  },
+  {
+    id: 0,
     img: Rajida,
     role: "Fullstack Software Engineering Intern",
-    company: "Rajida Holdings (Pvt) Ltd.",
+    company: "Rajida Holdings (Pvt) Ltd. - IT Team",
     date: "November 2023 - May 2024",
     desc: "Worked on the company Projects 'Coop-Mis', a Microfinance bank application for Sanasa Banks and Cooperative Societies.",
     skills: [
@@ -360,7 +379,45 @@ export const education = [
 
 export const projects = [
   {
-    id: 9,
+    id: 1,
+    title: "Gamage Recruiters Official Website",
+    date: "February 2025 - May 2025",
+    description:
+      "The official website of Gamage Recruiters and it's operations. Contributed to system frontend and backend.",
+    image:Gamage,
+    tags: [
+      "React.js",
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "MySQL",
+      "CSS",
+      "Github"
+    ],
+    category: "web app",
+    github: "https://github.com/Wolferlk/GamageRecruiters.git",
+  },
+  {
+    id: 2,
+    title: "Employee Management System - Gamage Recruiters",
+    date: "November 2024 - February 2025",
+    description:
+      "An employee management system for the company to mark attendance, assign tasks, check progress of the employees. Contributed to system frontend and backend.",
+    image:"https://shiftin.app/wp-content/uploads/2021/10/what-are-employee-management-systems.jpg",
+    tags: [
+      "React.js",
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "MySQL",
+      "CSS",
+      "Github"
+    ],
+    category: "web app",
+    github: "https://github.com/H-N-S-Abayawardhana/Client-Management-System-P2.git",
+  },
+  {
+    id: 3,
     title: "Coop-Mis",
     date: "November 2023 - May 2024",
     description:
@@ -379,7 +436,7 @@ export const projects = [
     github: "https://github.com/diproit/coopmis.git",
   },
   {
-    id: 9,
+    id: 4,
     title: "CranCo",
     date: "June 2023 - October 2023",
     description:
@@ -397,7 +454,7 @@ export const projects = [
     github: "https://github.com/mj-pavithra/CranCo.git",
   },
   {
-    id: 0,
+    id: 5,
     title: "NTSF",
     date: "April 2022 - May 2023",
     description:
@@ -408,7 +465,7 @@ export const projects = [
     github: "https://github.com/Suraif16/NTSF-frontend.git",
   },
   {
-    id: 1,
+    id: 6,
     title: "To Do App",
     date: "September 2023 - October 2023",
     description:"A simple Android App for task maintenance. Conributed to system backend.",
@@ -422,26 +479,7 @@ export const projects = [
     github: "https://github.com/SandaliKavi99/To-Do-App.git",
   },
   {
-    id: 1,
-    title: "LearnGuide",
-    date: "October 2024 - December 2024",
-    description:"A simple Full-Stack App for related to a learning platform for students and teachers to promote there courses.",
-    image: "https://d1ng1bucl7w66k.cloudfront.net/ghost-blog/2022/01/Screen-Shot-2022-01-27-at-11.50.56-AM.png",
-    tags: [
-      "React.js",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "Redux.js",
-      "Material UI",
-      "Paypal",
-      "Github",
-    ],
-    category: "web app",
-    github: "https://github.com/suchith-sandunika/LearnGuide-Backend.git",
-  },
-  {
-    id: 1,
+    id: 7,
     title: "BookFiezta Online Book Store",
     date: "Januray 2025 - February 2025",
     description:"A Full Stack Application related to an online book store for users to buy books, rate books, add reviews about books, etc.",
@@ -460,6 +498,25 @@ export const projects = [
     github: "https://github.com/suchith-sandunika/BookFiezta-Frontend.git",
   },
   {
+    id: 8,
+    title: "LearnGuide",
+    date: "October 2024 - December 2024",
+    description:"A simple Full-Stack App for related to a learning platform for students and teachers to promote there courses.",
+    image: "https://d1ng1bucl7w66k.cloudfront.net/ghost-blog/2022/01/Screen-Shot-2022-01-27-at-11.50.56-AM.png",
+    tags: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Redux.js",
+      "Material UI",
+      "Paypal",
+      "Github",
+    ],
+    category: "web app",
+    github: "https://github.com/suchith-sandunika/LearnGuide-Backend.git",
+  },
+  {
     id: 9,
     title: "Book Store",
     date: "June 2024 - August 2024",
@@ -472,7 +529,7 @@ export const projects = [
     github: "https://github.com/suchith-sandunika/Book-Store.git",
   },
   {
-    id: 9,
+    id: 10,
     title: "Movie App",
     date: "August 2024 - October 2024",
     description:"A web application related to a Movie Details Store to view movies, watch trailers & add reviews. Contributed to the system and fixing the bugs.",
@@ -484,7 +541,7 @@ export const projects = [
     github: "https://github.com/suchith-sandunika/Movie-API.git",
   },
   {
-    id: 9,
+    id: 11,
     title: "Weather App",
     date: "July 2024 - September 2024",
     description:"A simple application related to find weather conditions and location. Contributed to the system and fixing the bugs.",
@@ -496,7 +553,7 @@ export const projects = [
     github: "https://github.com/suchith-sandunika/Weather-App.git",
   },
   {
-    id: 9,
+    id: 12,
     title: "Library Management System",
     date: "June 2022 - October 2022",
     description:
@@ -509,7 +566,7 @@ export const projects = [
     github: "https://github.com/C-Senanayake/Library-Management-System.git",
   },
   {
-    id: 9,
+    id: 13,
     title: "Bicycle Product Landing Page",
     date: "September 2024 - November 2024",
     description:
@@ -522,7 +579,7 @@ export const projects = [
     github: "https://github.com/suchith-sandunika/Landing-Page.git",
   },
   {
-    id: 9,
+    id: 14,
     title: "Dice Game",
     date: "January 2022 - April 2022",
     description:
