@@ -8,15 +8,16 @@ export const Bio = {
   name: "Suchith Sandunika",
   roles: [
     "Full Stack Developer",
+    "MERN Stack Developer",
+    "Next.js Developer",
+    "Node.js Developer",
     "Frontend Developer",
     "Backend Developer",
     "Tech Enthusiast",
     "Programmer",
     "Problem Solver",
     "Creative Thinker",
-    "Self-Learner",
-    "Team Player",
-    "Hard Worker"
+    "Self-Learner"
   ],
   description:
     "A person with a strong foundation in Computer Science Fundamentals, a strong mindset and a good devotion to each work I do. I am also with a good      knowledge about English, Programming, Frameworks, technologies and many things related to Software Engineering field.",
@@ -110,7 +111,7 @@ export const skills = [
       },
       {
         name: "Nest.js",
-        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/NestJS-logo-wordmark.svg/220px-NestJS-logo-wordmark.svg.png",
+        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/NestJS.svg/960px-NestJS.svg.png?20221211225055",
       },
       {
         name: "Electron.js",
@@ -153,7 +154,12 @@ export const skills = [
       {
         name: "Neo 4j",
         image:
-          "https://www.bloorresearch.com/wp-content/uploads/2012/12/neo4j-x.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Neo4j-logo_color.png/800px-Neo4j-logo_color.png",
+      },
+      {
+        name: "Prisma ORM",
+        image:
+          "https://cdn.freelogovectors.net/wp-content/uploads/2022/01/prisma_logo-freelogovectors.net_-330x400.png",
       }
     ],
   }, 
@@ -213,16 +219,20 @@ export const skills = [
       {
         name: "Linux",
         image:"https://upload.wikimedia.org/wikipedia/commons/f/f1/Icons8_flat_linux.svg",
+      },
+      {
+        name: "Docker",
+        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Docker_%28container_engine%29_logo_%28cropped%29.png/120px-Docker_%28container_engine%29_logo_%28cropped%29.png?20230309095311",
+      },
+      {
+        name: "Firebase",
+        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Firebase_icon.svg/140px-Firebase_icon.svg.png?20231023160108",
       }
     ],
   },
   {
     title: "Tools",
     skills: [
-      {
-        name: "Docker",
-        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Docker_%28container_engine%29_logo_%28cropped%29.png/120px-Docker_%28container_engine%29_logo_%28cropped%29.png?20230309095311",
-      },
       {
         name: "VS Code",
         image:
@@ -483,7 +493,7 @@ export const projects = [
     title: "BookFiezta Online Book Store",
     date: "Januray 2025 - February 2025",
     description:"A Full Stack Application related to an online book store for users to buy books, rate books, add reviews about books, etc.",
-    image: "https://media.licdn.com/dms/image/v2/D5612AQGIG3RBJJJoAA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1693300567782?e=1746057600&v=beta&t=SgSUZG5rFm55yL8iFi3rMSA22IPunEpOPJAAdB3HFwg",
+    image: "https://media.licdn.com/dms/image/v2/D5612AQGIG3RBJJJoAA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1693300567782?e=2147483647&v=beta&t=goeF4HFEJqEXHOLOmt0aDhTidcJ_LQawaa1vZpvcf_k",
     tags: [
       "Angular",
       "Node.js",
