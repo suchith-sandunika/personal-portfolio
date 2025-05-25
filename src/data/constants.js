@@ -43,11 +43,11 @@ export const skills = [
       },
       {
         name: "Next.js",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/394px-Nextjs-logo.svg.png",
+        image: "https://cdn.worldvectorlogo.com/logos/nextjs-2.svg",
       },
       {
         name: "Redux",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Redux_Logo.png/800px-Redux_Logo.png",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
       },
       {
         name: "HTML",
@@ -103,7 +103,7 @@ export const skills = [
       },
       {
         name: "Express.js",
-        image:"https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
+        image:"https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg",
       },
       {
         name: "Apollo Server",
@@ -270,11 +270,11 @@ export const skills = [
       {
         name: "pgAdmin",
         image:"https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/220px-Postgresql_elephant.svg.png",
-      },
-      {
-        name: "XAMPP",
-        image:"https://upload.wikimedia.org/wikipedia/en/thumb/7/78/XAMPP_logo.svg/120px-XAMPP_logo.svg.png",
       }
+      // {
+      //   name: "XAMPP",
+      //   image:"https://upload.wikimedia.org/wikipedia/en/thumb/7/78/XAMPP_logo.svg/120px-XAMPP_logo.svg.png",
+      // }
     ],
   },
 ];
