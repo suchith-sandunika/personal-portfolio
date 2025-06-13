@@ -3,6 +3,11 @@ import ICBT from '../images/ICBTCampus.jpg';
 import UCSC from '../images/UCSC.jpg';
 import Rajida from '../images/Rajida.jpg';
 import Gamage from '../images/Gamage.jpg';
+import LinkedIn from '../images/LinkedIn_logo_initials.png';
+import Coursera from '../images/Coursera-Logo_600x600.svg.png';
+import GreatLearning from '../images/GreatLearning.png';
+import Hackerrank from '../images/HackerRank_Icon-1000px.png';
+import Sololearn from '../images/Sololearn.jpg';
 
 export const Bio = {
   name: "Suchith Sandunika",
@@ -22,7 +27,7 @@ export const Bio = {
   description:
     "A person with a strong foundation in Computer Science Fundamentals, a strong mindset and a good devotion to each work I do. I am also with a good      knowledge about English, Programming, Frameworks, technologies and many things related to Software Engineering field.",
   github: "https://github.com/suchith-sandunika",
-  resume: "https://drive.google.com/file/d/1HXIyRquq3qqBKwq7nsqHv8QeloAPnBZl/view?usp=drive_link",
+  resume: "https://drive.google.com/file/d/11OYRXcxDqOmfHfWfs_W9IkG1tq1ErR0c/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/suchith-sandunika",
   twitter: "https://twitter.com/esuchith",
   instagram: "https://www.instagram.com/_suchith_sandunika_",
@@ -57,14 +62,6 @@ export const skills = [
         name: "CSS",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
-      },
-      {
-        name: "JavaScript",
-        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-      },
-      {
-        name: "TypeScript",
-        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png",
       },
       {
         name: "Bootstrap",
@@ -117,10 +114,6 @@ export const skills = [
         name: "Electron.js",
         image:
           "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*O6KluMvEBZ1cBL3EPo4tig.png",
-      },
-      {
-        name: "Json",
-        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/JSON_vector_logo.svg/160px-JSON_vector_logo.svg.png",
       }
     ],
   },
@@ -185,12 +178,40 @@ export const skills = [
         name: "Python",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+      },
+      {
+        name: "JavaScript",
+        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      },
+      {
+        name: "TypeScript",
+        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png",
       }
     ],
   }, 
   {
     title: "Other Technologies",
     skills: [
+      {
+        name: "Jest",
+        image: "https://camo.githubusercontent.com/61bf483301313f919312bc95fd53a177e5f277bc73955af58afcfe26fdccd27a/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6a6573746a73696f2f6a6573746a73696f2d69636f6e2e737667"
+      },
+      {
+        name: "Vite & Vitest",
+        image: "https://vitejs.dev/logo.svg"
+      },
+      {
+        name: "Docker",
+        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Docker_%28container_engine%29_logo_%28cropped%29.png/120px-Docker_%28container_engine%29_logo_%28cropped%29.png?20230309095311",
+      },
+      {
+        name: "Firebase",
+        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Firebase_icon.svg/140px-Firebase_icon.svg.png?20231023160108",
+      },
+      {
+        name: "Deploying in Vercel",
+        image:"https://cdn.changelog.com/uploads/icons/news_sources/qGw/icon_small.png?v=63692097118",
+      },
       {
         name: "Git",
         image:
@@ -201,6 +222,19 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/270px-GitHub_Invertocat_Logo.svg.png",
       },
+      {
+        name: "Ubuntu",
+        image:"https://upload.wikimedia.org/wikipedia/commons/f/f1/Icons8_flat_linux.svg",
+      },
+      {
+        name: "Json",
+        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/JSON_vector_logo.svg/160px-JSON_vector_logo.svg.png",
+      }
+    ],
+  },
+  {
+    title: "Tools",
+    skills: [
       {
         name: "ClickUp",
         image:
@@ -215,24 +249,7 @@ export const skills = [
         name: "Trello",
         image:
           "https://seeklogo.com/images/T/trello-logo-CE7B690E34-seeklogo.com.png",
-      },
-      {
-        name: "Linux",
-        image:"https://upload.wikimedia.org/wikipedia/commons/f/f1/Icons8_flat_linux.svg",
-      },
-      {
-        name: "Docker",
-        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Docker_%28container_engine%29_logo_%28cropped%29.png/120px-Docker_%28container_engine%29_logo_%28cropped%29.png?20230309095311",
-      },
-      {
-        name: "Firebase",
-        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Firebase_icon.svg/140px-Firebase_icon.svg.png?20231023160108",
-      }
-    ],
-  },
-  {
-    title: "Tools",
-    skills: [
+      },  
       {
         name: "VS Code",
         image:
@@ -323,7 +340,7 @@ export const experiences = [
 
 export const education = [
   {
-    id: 1,
+    id: 8,
     img: UCSC,
     school: "University of Colombo School of Computing",
     date: "March 2021 - September 2024",
@@ -331,35 +348,53 @@ export const education = [
     desc: "Graduated With General Class",
     degree: "Computer Science (BSc)",
   }, 
-  // {
-  //   id: 1,
-  //   img: "https://scontent.fcmb2-2.fna.fbcdn.net/v/t39.30808-6/352773399_508581478060981_7238410404797149509_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=IXBu0mwS3-QQ7kNvgFFo-eI&_nc_ht=scontent.fcmb2-2.fna&_nc_gid=AnWvOILeMHD9FRULN2M9UGS&oh=00_AYA8Xa6oFEVuI7uKdwasEHcvbUSUVXMyBnc92dfc-07RZA&oe=66E59A49",
-  //   school:"Great Learning Accedamy",
-  //   date: "November 2023 - Present",
-  //   grade: "Basic to Advanced",
-  //   desc: "programming basics, data structures, algorithms, database management systems, AWS and problem solving",
-  //   degree: "Certificates related to programming basics, data structures, algorithms, database management systems, AWS",
-  // },
-  // {
-  //   id: 1,
-  //   img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HackerRank_Icon-1000px.png/330px-HackerRank_Icon-1000px.png",
-  //   school:"Hackerrank",
-  //   date: "November 2023 - Present",
-  //   grade: "Basic",
-  //   desc: "Skills Tests",
-  //   degree: "Certificates related to programming skills(Java, SQL)",
-  // },
-  // {
-  //   id: 1,
-  //   img: "https://scontent.fcmb2-2.fna.fbcdn.net/v/t39.30808-6/313171206_561012919361098_8893449639025274118_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=GP53Qyj3KK8Q7kNvgE0RfSf&_nc_ht=scontent.fcmb2-2.fna&_nc_gid=Ait-ridILaWg-AZp14xw5JO&oh=00_AYDWHyg-9uaPtjy3Dx2DC92hnLgu2Yk7hkliFuu-vfjtkQ&oe=66E598E3",
-  //   school:"Sololearn Accademy",
-  //   date: "August 2023 - Present",
-  //   grade: "Basic to Advanced",
-  //   desc: "programming concepts & programming",
-  //   degree: "Certificates related to programming (Java, JavaScript)",
-  // },
   {
-    id: 1,
+    id: 7,
+    img: LinkedIn,
+    school:"LinkedIn Learning",
+    date: "November 2024 - January 2025",
+    grade: "Basic to Advanced",
+    desc: "React.js, Node.js, Express.js Learning (Through Meta and IBM Courses)",
+    degree: "Certificates related to React.js (Basic to Advanced), Node.js, Express.js Learning (Through Meta and IBM Courses)",
+  },
+  {
+    id: 6,
+    img: Coursera,
+    school:"Coursera Academy",
+    date: "August 2023 - December 2024",
+    grade: "Basic to Advanced",
+    desc: "React.js, Node.js, Express.js Learning (Through Meta and IBM Courses)",
+    degree: "Certificates related to React.js (Basic to Advanced), Node.js, Express.js Learning (Through Meta and IBM Courses)",
+  },
+  {
+    id: 5,
+    img: GreatLearning,
+    school:"Great Learning Accedamy",
+    date: "November 2023 - September 2024",
+    grade: "Basic to Advanced",
+    desc: "programming basics, data structures, algorithms, database management systems, AWS and problem solving",
+    degree: "Certificates related to programming basics, data structures, algorithms, database management systems, AWS",
+  },
+  {
+    id: 4,
+    img: Hackerrank,
+    school:"Hackerrank",
+    date: "November 2023 - December 2023",
+    grade: "Basic",
+    desc: "Skills Tests",
+    degree: "Certificates related to programming skills(Java, SQL)",
+  },
+  {
+    id: 3,
+    img: Sololearn,
+    school:"Sololearn Accademy",
+    date: "August 2023 - November 2023",
+    grade: "Basic to Advanced",
+    desc: "programming concepts & programming",
+    degree: "Certificates related to programming (Java, JavaScript)",
+  },
+  {
+    id: 2,
     img: ICBT,
     school:"ICBT Galle Campus",
     date: "August 2020 - February 2021",
