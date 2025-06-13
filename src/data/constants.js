@@ -354,8 +354,8 @@ export const education = [
     school:"LinkedIn Learning",
     date: "November 2024 - January 2025",
     grade: "Basic to Advanced",
-    desc: "React.js, Node.js, Express.js Learning (Through Meta and IBM Courses)",
-    degree: "Certificates related to React.js (Basic to Advanced), Node.js, Express.js Learning (Through Meta and IBM Courses)",
+    desc: "Jenkins, AWS, Docker, Kubernetes, Node.js, React.js, Express.js, TypeScript, Angular",
+    degree: "Certificates related Jenkins, AWS, Docker, Kubernetes, Node.js, React.js, Express.js, TypeScript, Angular",
   },
   {
     id: 6,
