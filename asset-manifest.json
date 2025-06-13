@@ -1,19 +1,22 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.bf538fe7.css",
-    "main.js": "/personal-portfolio/static/js/main.6b770b19.js",
+    "main.js": "/personal-portfolio/static/js/main.2aefc605.js",
     "static/media/RichmondCollege.jpg": "/personal-portfolio/static/media/RichmondCollege.055621c3c515fc9afef3.jpg",
     "static/media/Rajida.jpg": "/personal-portfolio/static/media/Rajida.e7944b88ab94275c4f0d.jpg",
     "static/media/Suchith_Epa.jpeg": "/personal-portfolio/static/media/Suchith_Epa.272f44595e0c8fcd4c57.jpeg",
     "static/media/UCSC.jpg": "/personal-portfolio/static/media/UCSC.ca11931bf9b2602286f9.jpg",
     "static/media/ICBTCampus.jpg": "/personal-portfolio/static/media/ICBTCampus.b64291b2f2d4e223175c.jpg",
+    "static/media/Sololearn.jpg": "/personal-portfolio/static/media/Sololearn.c9a262aca52b1c9d4d79.jpg",
     "static/media/Gamage.jpg": "/personal-portfolio/static/media/Gamage.88f2c68fb206b3fcf711.jpg",
+    "static/media/GreatLearning.png": "/personal-portfolio/static/media/GreatLearning.72e8629b8c05b58d2de4.png",
+    "static/media/LinkedIn_logo_initials.png": "/personal-portfolio/static/media/LinkedIn_logo_initials.12e9d25030be6207481a.png",
     "index.html": "/personal-portfolio/index.html",
     "main.bf538fe7.css.map": "/personal-portfolio/static/css/main.bf538fe7.css.map",
-    "main.6b770b19.js.map": "/personal-portfolio/static/js/main.6b770b19.js.map"
+    "main.2aefc605.js.map": "/personal-portfolio/static/js/main.2aefc605.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.6b770b19.js"
+    "static/js/main.2aefc605.js"
   ]
 }
