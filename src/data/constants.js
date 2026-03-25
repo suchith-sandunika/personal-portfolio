@@ -1,28 +1,110 @@
-import RichmondCollege from '../images/RichmondCollege.jpg';
-import ICBT from '../images/ICBTCampus.jpg';
-import UCSC from '../images/UCSC.jpg';
-import Rajida from '../images/Rajida.jpg';
-import Gamage from '../images/Gamage.jpg';
-import LinkedIn from '../images/LinkedIn_logo_initials.png';
-import Coursera from '../images/Coursera-Logo_600x600.svg.png';
-import GreatLearning from '../images/GreatLearning.png';
-import Hackerrank from '../images/HackerRank_Icon-1000px.png';
-import Sololearn from '../images/Sololearn.jpg';
+import worky from "../images/work/Worky.jpg";
+import gamage from "../images/work/Gamage.jpg";
+import rajida from "../images/work/Rajida.jpg";
+
+import ucsc from "../images/education/UCSC.jpg";
+import rcg from "../images/education/RichmondCollege.jpg";
+import icbt from "../images/education/ICBTCampus.jpg";
+import aquinas from "../images/education/Aquinas.png";
+
+import coursera from "../images/courses/Coursera.png";
+import hackerrank from "../images/courses/HackerRank.png";
+import linkedin from "../images/courses/LinkedIn.png";
+import sololearn from "../images/courses/Sololearn.jpg";
+import greatlearning from "../images/courses/GreatLearning.png";
+
+import workyapp from "../images/projects/workyapp.png";
+import cranco from "../images/projects/cranco.png";
+import coopmis from "../images/projects/coopmis.jpg";
+import bookfiezta from "../images/projects/bookfiezta.jpg";
+import ntsf from "../images/projects/ntsf.png";
+import learnguide from "../images/projects/learnguide.png";
+import bookstore from "../images/projects/bookstore.jpg";
+import todo from "../images/projects/todo.jpg";
+import weatherapp from "../images/projects/weatherapp.png";
+import movieapp from "../images/projects/movieapp.jpg";
+import dicegame from "../images/projects/dicegame.webp";
+import bike from "../images/projects/bike.jpg";
+import employee from "../images/projects/employeemngsys.webp";
+import library from "../images/projects/library.jpg";
+
+import android from "../images/technologies/frontend/android.png";
+import react from "../images/technologies/frontend/react.png";
+import angular from "../images/technologies/frontend/angular.webp";
+import next from "../images/technologies/frontend/nextjs.jpg";
+import vue from "../images/technologies/frontend/vue.png";
+import html from "../images/technologies/frontend/html.png";
+import css from "../images/technologies/frontend/css.png";
+import bootstrap from "../images/technologies/frontend/bootstrap.png";
+import tailwind from "../images/technologies/frontend/tailwind.png";
+import jquery from "../images/technologies/frontend/jquery.webp";
+import redux from "../images/technologies/frontend/redux.png";
+
+import rest from "../images/technologies/backend/rest.png";
+import gql from "../images/technologies/backend/graphql.png";
+import sb from "../images/technologies/backend/springboot.png";
+import node from "../images/technologies/backend/node.png";
+import nest from "../images/technologies/backend/nest.png";
+import apollo from "../images/technologies/backend/apollo.png";
+import express from "../images/technologies/backend/express.webp";
+import electron from "../images/technologies/backend/electron.webp";
+
+import mariadb from "../images/technologies/database/mariadb.png";
+import mongodb from "../images/technologies/database/mongo.jpg";
+import mysql from "../images/technologies/database/mysql.png";
+import neo4j from "../images/technologies/database/neo4j.png";
+import postgres from "../images/technologies/database/postgres.png";
+import sqlite from "../images/technologies/database/sqlite.png";
+import prisma from "../images/technologies/database/prisma.png";
+
+import java from "../images/technologies/languages/java.png";
+import c from "../images/technologies/languages/c.png";
+import cpp from "../images/technologies/languages/cpp.png";
+import js from "../images/technologies/languages/js.png";
+import python from "../images/technologies/languages/python.png";
+import ts from "../images/technologies/languages/ts.png";
+import php from "../images/technologies/languages/php.png";
+
+import jest from "../images/technologies/other/jest.png";
+import firebase from "../images/technologies/other/firebase.png";
+import docker from "../images/technologies/other/docker.png";
+import git from "../images/technologies/other/git.png";
+import github from "../images/technologies/other/github.png";
+import json from "../images/technologies/other/json.png";
+import ubuntu from "../images/technologies/other/ubuntu.png";
+import vercel from "../images/technologies/other/vercel.png";
+import vitest from "../images/technologies/other/vitest.webp";
+
+import android_studio from "../images/technologies/tools/android_studio.png";
+import clickup from "../images/technologies/tools/clickup.png";
+import slack from "../images/technologies/tools/slack.png";
+import compass from "../images/technologies/tools/compass.webp";
+import intellij from "../images/technologies/tools/IntelliJ.png";
+import postman from "../images/technologies/tools/postman.png";
+import insomnia from "../images/technologies/tools/Insomnia.png";
+import trello from "../images/technologies/tools/trello.png";
+import webstorm from "../images/technologies/tools/webstorm.webp";
+import vscode from "../images/technologies/tools/vscode.png";
+import phpstorm from "../images/technologies/tools/phpstorm.png";
+import workbench from "../images/technologies/tools/workbench.png";
+import pgadmin from "../images/technologies/tools/pgadmin.png";
+import xampp from "../images/technologies/tools/xampp.png";
 
 export const Bio = {
   name: "Suchith Sandunika",
   roles: [
     "Full Stack Developer",
-    "MERN Stack Developer",
-    "Next.js Developer",
-    "Node.js Developer",
+    // "MERN Stack Developer",
+    // "Next.js Developer",
+    // "Node.js Developer",
     "Frontend Developer",
     "Backend Developer",
-    "Tech Enthusiast",
-    "Programmer",
-    "Problem Solver",
-    "Creative Thinker",
-    "Self-Learner"
+    "Mobile Developer",
+    // "Tech Enthusiast",
+    // "Programmer",
+    // "Problem Solver",
+    // "Creative Thinker",
+    // "Self-Learner"
   ],
   description:
     "A person with a strong foundation in Computer Science Fundamentals, a strong mindset and a good devotion to each work I do. I am also with a good      knowledge about English, Programming, Frameworks, technologies and many things related to Software Engineering field.",
@@ -39,43 +121,48 @@ export const skills = [
     title: "Frontend",
     skills: [
       {
+        name: "Android",
+        image: android,
+      },
+      {
         name: "React.js",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png",
+        image: react,
       },
       {
         name: "Angular",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/512px-Angular_full_color_logo.svg.png",
+        image: angular,
       },
       {
         name: "Next.js",
-        image: "https://cdn.worldvectorlogo.com/logos/nextjs-2.svg",
+        image: next,
+      },
+      {
+        name: "Vue.js",
+        image: vue,
       },
       {
         name: "Redux",
-        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
+        image: redux,
       },
       {
         name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+        image: html,
       },
       {
         name: "CSS",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+        image: css,
       },
       {
         name: "Bootstrap",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/768px-Bootstrap_logo.svg.png"
+        image: bootstrap
       },
       {
         name: "Tailwind",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+        image: tailwind
       },
       {
         name: "jQuery",
-        image:
-          "https://miro.medium.com/v2/resize:fit:1100/format:webp/0*eFomJUFua8tuqe8g.png"
+        image: jquery
       }
     ],
   },
@@ -84,36 +171,35 @@ export const skills = [
     skills: [
       {
         name: "REST",
-        image: "https://www.javacodegeeks.com/wp-content/uploads/2024/01/rest-api-icon-300x246.png",
+        image: rest,
       },
       {
         name: "GraphQL",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/220px-GraphQL_Logo.svg.png",
+        image: gql,
       },
       {
         name: "Java Spring Boot",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/768px-Spring_Boot.svg.png?20230616230349",
+        image: sb,
       },
       {
         name: "Node.js",
-        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/885px-Node.js_logo.svg.png",
+        image: node,
       },
       {
         name: "Express.js",
-        image:"https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg",
+        image: express,
       },
       {
         name: "Apollo Server",
-        image:"https://avatars.githubusercontent.com/u/17189275?v=4",
+        image: apollo,
       },
       {
         name: "Nest.js",
-        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/NestJS.svg/960px-NestJS.svg.png?20221211225055",
+        image: nest,
       },
       {
         name: "Electron.js",
-        image:
-          "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*O6KluMvEBZ1cBL3EPo4tig.png",
+        image: electron,
       }
     ],
   },
@@ -122,37 +208,31 @@ export const skills = [
     skills: [
       {
         name: "SQLite",
-        image: "https://upload.wikimedia.org/wikipedia/commons/3/38/SQLite370.svg",
+        image: sqlite,
       },
       {
         name: "MariaDB",
-        image:
-          "https://d1.awsstatic.com/logos/partners/MariaDB_Logo.d8a208f0a889a8f0f0551b8391a065ea79c54f3a.png",
+        image: mariadb,
       },
       {
         name: "MySQL",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+        image: mysql,
       },
       {
         name: "PostgreSQL",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/220px-Postgresql_elephant.svg.png",
+        image: postgres,
       },
       {
         name: "MongoDB",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+        image: mongodb,
       },
       {
         name: "Neo 4j",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Neo4j-logo_color.png/800px-Neo4j-logo_color.png",
+        image: neo4j,
       },
       {
         name: "Prisma ORM",
-        image:
-          "https://cdn.freelogovectors.net/wp-content/uploads/2022/01/prisma_logo-freelogovectors.net_-330x400.png",
+        image: prisma,
       }
     ],
   }, 
@@ -161,31 +241,31 @@ export const skills = [
     skills: [
       {
         name: "Java",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+        image: java,
       },
       {
         name: "C",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg",
+        image: c,
       },
       {
         name: "C++",
-        image:
-          "https://www.logo.wine/a/logo/C%2B%2B/C%2B%2B-Logo.wine.svg",
+        image: cpp,
       },
       {
         name: "Python",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+        image: python,
       },
       {
         name: "JavaScript",
-        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+        image: js,
       },
       {
         name: "TypeScript",
-        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png",
+        image: ts,
+      },
+      {
+        name: "PHP",
+        image: php,
       }
     ],
   }, 
@@ -194,41 +274,39 @@ export const skills = [
     skills: [
       {
         name: "Jest",
-        image: "https://camo.githubusercontent.com/61bf483301313f919312bc95fd53a177e5f277bc73955af58afcfe26fdccd27a/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6a6573746a73696f2f6a6573746a73696f2d69636f6e2e737667"
+        image: jest
       },
       {
         name: "Vite & Vitest",
-        image: "https://vitejs.dev/logo.svg"
+        image: vitest
       },
       {
         name: "Docker",
-        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Docker_%28container_engine%29_logo_%28cropped%29.png/120px-Docker_%28container_engine%29_logo_%28cropped%29.png?20230309095311",
+        image: docker,
       },
       {
         name: "Firebase",
-        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Firebase_icon.svg/140px-Firebase_icon.svg.png?20231023160108",
+        image: firebase,
       },
       {
         name: "Deploying in Vercel",
-        image:"https://cdn.changelog.com/uploads/icons/news_sources/qGw/icon_small.png?v=63692097118",
+        image: vercel,
       },
       {
         name: "Git",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg",
+        image: git,
       },
       {
         name: "GitHub",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/270px-GitHub_Invertocat_Logo.svg.png",
+        image: github,
       },
       {
         name: "Ubuntu",
-        image:"https://upload.wikimedia.org/wikipedia/commons/f/f1/Icons8_flat_linux.svg",
+        image: ubuntu,
       },
       {
         name: "Json",
-        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/JSON_vector_logo.svg/160px-JSON_vector_logo.svg.png",
+        image: json,
       }
     ],
   },
@@ -237,69 +315,87 @@ export const skills = [
     skills: [
       {
         name: "ClickUp",
-        image:
-          "https://logosandtypes.com/wp-content/uploads/2023/03/clickup.svg",
+        image: clickup,
       },
       {
         name: "Slack",
-        image:
-          "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/306_Slack_logo-1024.png",
+        image: slack,
       },
       {
         name: "Trello",
-        image:
-          "https://seeklogo.com/images/T/trello-logo-CE7B690E34-seeklogo.com.png",
+        image: trello,
       },  
       {
         name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+        image: vscode,
       },
       {
         name: "Postman",
-        image:
-          "https://iconape.com/wp-content/png_logo_vector/postman.png",
+        image: postman,
       },
       {
         name: "Insomnia",
-        image:
-          "https://s3.amazonaws.com/s3.roaringapps.com/assets/icons/1561251841927-Insomnia.png",
+        image: insomnia,
+      },
+      {
+        name: "Android Studio",
+        image: android_studio,
       },
       {
         name: "Intellij Idea",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/768px-IntelliJ_IDEA_Icon.svg.png",
+        image: intellij,
       },
       {
         name: "WebStorm",
-        image:
-          "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*rCK7fhfY9jb-osA77oaOAQ.png",
+        image: webstorm,
+      },
+      {
+        name: "PhpStorm",
+        image: phpstorm,
       },
       {
         name: "MongoDB Compass",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Mongodb.png/800px-Mongodb.png",
+        image: compass,
       },
       {
         name: "MySQL Workbench",
-        image:"https://upload.wikimedia.org/wikipedia/de/thumb/d/dd/MySQL_logo.svg/250px-MySQL_logo.svg.png",
+        image: workbench,
       },
       {
         name: "pgAdmin",
-        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/220px-Postgresql_elephant.svg.png",
+        image: pgadmin,
+      },
+      {
+        name: "XAMPP",
+        image: xampp,
       }
-      // {
-      //   name: "XAMPP",
-      //   image:"https://upload.wikimedia.org/wikipedia/en/thumb/7/78/XAMPP_logo.svg/120px-XAMPP_logo.svg.png",
-      // }
     ],
   },
 ];
 
 export const experiences = [
-  {
-    id: 0,
-    img: Gamage,
+    {
+      id: 2,
+      img: worky,
+      role: "Associate Software Engineer",
+      company: "Worky (Pvt) Ltd",
+      date: "July 2025 - Present",
+      desc: "Contributing to the ongoing projects in the Company - A Provider App (Worky App), Tasker App (Worky Tasker), etc.",
+      skills: [
+        "Android",
+        "Java",
+        "PHP",
+        "MySQL",
+        "Firebase",
+        "XML",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+    },
+    {
+    id: 1,
+    img: gamage,
     role: "Fullstack Software Engineering Intern",
     company: "Gamage Recruiters (Pvt) Ltd - IT Team",
     date: "November 2024 - May 2025",
@@ -317,7 +413,7 @@ export const experiences = [
   },
   {
     id: 0,
-    img: Rajida,
+    img: rajida,
     role: "Fullstack Software Engineering Intern",
     company: "Rajida Holdings (Pvt) Ltd. - IT Team",
     date: "November 2023 - May 2024",
@@ -341,7 +437,7 @@ export const experiences = [
 export const education = [
   {
     id: 8,
-    img: UCSC,
+    img: ucsc,
     school: "University of Colombo School of Computing",
     date: "March 2021 - September 2024",
     grade: "3 Year Degree",
@@ -350,7 +446,7 @@ export const education = [
   }, 
   {
     id: 7,
-    img: LinkedIn,
+    img: linkedin,
     school:"LinkedIn Learning",
     date: "November 2024 - January 2025",
     grade: "Basic to Advanced",
@@ -359,7 +455,7 @@ export const education = [
   },
   {
     id: 6,
-    img: Coursera,
+    img: coursera,
     school:"Coursera Academy",
     date: "August 2023 - December 2024",
     grade: "Basic to Advanced",
@@ -368,7 +464,7 @@ export const education = [
   },
   {
     id: 5,
-    img: GreatLearning,
+    img: greatlearning,
     school:"Great Learning Accedamy",
     date: "November 2023 - September 2024",
     grade: "Basic to Advanced",
@@ -377,16 +473,16 @@ export const education = [
   },
   {
     id: 4,
-    img: Hackerrank,
+    img: hackerrank,
     school:"Hackerrank",
     date: "November 2023 - December 2023",
     grade: "Basic",
-    desc: "Skills Tests",
+    desc: "Skills Tests to improve my skills and programming and problem solving",
     degree: "Certificates related to programming skills(Java, SQL)",
   },
   {
     id: 3,
-    img: Sololearn,
+    img: sololearn,
     school:"Sololearn Accademy",
     date: "August 2023 - November 2023",
     grade: "Basic to Advanced",
@@ -395,7 +491,7 @@ export const education = [
   },
   {
     id: 2,
-    img: ICBT,
+    img: icbt,
     school:"ICBT Galle Campus",
     date: "August 2020 - February 2021",
     grade: "General ",
@@ -404,7 +500,7 @@ export const education = [
   }, 
   {
     id: 1,
-    img: "https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Aquinas_College_of_Higher_Studies_Logo.png/220px-Aquinas_College_of_Higher_Studies_Logo.png",
+    img: aquinas,
     school:"Aquinas College Galle",
     date: "September 2019 - January 2020",
     grade: "Intermediate",
@@ -413,7 +509,7 @@ export const education = [
   }, 
   {
     id: 0,
-    img: RichmondCollege,
+    img: rcg,
     school: "Richmond College Galle",
     date: "2005 January - 2019 August",
     grade: "Grade 1 to 13 (A/L's)",
@@ -423,13 +519,29 @@ export const education = [
 ];
 
 export const projects = [
-  {
+    {
+      id: 0,
+      title: "Worky App (User App)",
+      date: "July 2025 - Present",
+      description: "The Official Worky App for users (A Super User App). Contributed to the system By Adding some new features, fixing bugs and modifying UI's in XML. Visit 'https://play.google.com/store/apps/details?id=com.wondermart.worky.app&pcampaignid=web_share' to view the app.",
+      image:workyapp,
+      tags: [
+        "Android",
+        "Java",
+        "PHP",
+        "MySQL",
+        "Firebase",
+        "XML"
+      ],
+      category: "android app",
+      github: "https://github.com/dulanjana93/workyApp-user.git",
+    },
+    {
     id: 1,
     title: "Gamage Recruiters Official Website",
     date: "February 2025 - May 2025",
-    description:
-      "The official website of Gamage Recruiters and it's operations. Contributed to system frontend and backend.",
-    image:Gamage,
+    description: "The official website of Gamage Recruiters and it's operations. Contributed to system frontend and backend.",
+    image:gamage,
     tags: [
       "React.js",
       "JavaScript",
@@ -448,7 +560,7 @@ export const projects = [
     date: "November 2024 - February 2025",
     description:
       "An employee management system for the company to mark attendance, assign tasks, check progress of the employees. Contributed to system frontend and backend.",
-    image:"https://shiftin.app/wp-content/uploads/2021/10/what-are-employee-management-systems.jpg",
+    image:employee,
     tags: [
       "React.js",
       "JavaScript",
@@ -467,7 +579,7 @@ export const projects = [
     date: "November 2023 - May 2024",
     description:
       "A Microfinance System for Sanasa Banks and Sanasa Banks and Cooperative Societies. Contributed to system frontend and backend.",
-    image:"https://lmd.lk/wp-content/uploads/2021/08/614__DSC5981-1.jpg",
+    image:coopmis,
     tags: [
       "Electron.js",
       "JavaScript",
@@ -486,7 +598,7 @@ export const projects = [
     date: "June 2023 - October 2023",
     description:
       "A Social Media Platform for vehicle lovers and enthusiasts to add posts, follow pages, etc. Contributed to this project by implementing the system administrator part, conrtibited to system frontend and backend",
-    image:"https://www.tvi-mp3.com/blog/wp-content/uploads/2022/09/Automotive-Social-Media-2-768x384.png",
+    image:cranco,
     tags: [
       "Java Spring Boot",
       "React.js",
@@ -504,7 +616,7 @@ export const projects = [
     date: "April 2022 - May 2023",
     description:
       "National Traffic Spot Fine Sustem (NTSF), a system for people and policeman to pay fines, add complaints, etc. Contributed to this project by implementing the system frontend and backend",
-    image:"https://hmcpartlandandsons.co.uk/wp-content/uploads/2021/08/Traffic-Offences-and-Appeals-1536x864.png",
+    image:ntsf,
     tags: ["Java", "JavaScript", "HTML", "CSS", "MySQL", "Postman", "Github"],
     category: "web app",
     github: "https://github.com/Suraif16/NTSF-frontend.git",
@@ -514,7 +626,7 @@ export const projects = [
     title: "To Do App",
     date: "September 2023 - October 2023",
     description:"A simple Android App for task maintenance. Conributed to system backend.",
-    image: "https://static.vecteezy.com/system/resources/previews/023/374/805/non_2x/to-do-list-task-management-or-completion-tracking-or-reminder-to-finish-assignment-work-planning-or-schedule-concept-productive-businessman-with-pencil-and-to-do-list-clipboard-with-alarm-clock-vector.jpg",
+    image: todo,
     tags: [
       "Java",
       "Kotlin",
@@ -528,7 +640,7 @@ export const projects = [
     title: "BookFiezta Online Book Store",
     date: "Januray 2025 - February 2025",
     description:"A Full Stack Application related to an online book store for users to buy books, rate books, add reviews about books, etc.",
-    image: "https://media.licdn.com/dms/image/v2/D5612AQGIG3RBJJJoAA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1693300567782?e=2147483647&v=beta&t=goeF4HFEJqEXHOLOmt0aDhTidcJ_LQawaa1vZpvcf_k",
+    image: bookfiezta,
     tags: [
       "Angular",
       "Node.js",
@@ -547,7 +659,7 @@ export const projects = [
     title: "LearnGuide",
     date: "October 2024 - December 2024",
     description:"A simple Full-Stack App for related to a learning platform for students and teachers to promote there courses.",
-    image: "https://d1ng1bucl7w66k.cloudfront.net/ghost-blog/2022/01/Screen-Shot-2022-01-27-at-11.50.56-AM.png",
+    image: learnguide,
     tags: [
       "React.js",
       "Node.js",
@@ -566,7 +678,7 @@ export const projects = [
     title: "Book Store",
     date: "June 2024 - August 2024",
     description:"A web application related to a Book store System. Contributed to the system and fixing the bugs.",
-    image:"https://us.123rf.com/450wm/rumkavodki/rumkavodki2404/rumkavodki240400128/228856085-welcoming-bookstore-facade-vector-illustration.jpg?ver=6",
+    image:bookstore,
     tags: [
       "React.js", "Node.js", "Express.js", "MongoDB", "JavaScript", "Tailwind CSS", "Github"
     ],
@@ -578,7 +690,7 @@ export const projects = [
     title: "Movie App",
     date: "August 2024 - October 2024",
     description:"A web application related to a Movie Details Store to view movies, watch trailers & add reviews. Contributed to the system and fixing the bugs.",
-    image:"https://mostaql.hsoubcdn.com/uploads/thumbnails/833004/63cea3a252b0b/1.jpg",
+    image:movieapp,
     tags: [
       "Spring Boot", "React.js", "Bootstrap", "MongoDB", "JavaScript", "Github"
     ],
@@ -590,7 +702,7 @@ export const projects = [
     title: "Weather App",
     date: "July 2024 - September 2024",
     description:"A simple application related to find weather conditions and location. Contributed to the system and fixing the bugs.",
-    image:"https://store-images.s-microsoft.com/image/apps.60423.13664108468657913.8218191b-9e2a-49f4-8455-3c027b985a5d.30a38556-a2f8-4e20-835b-d8d914491b8b?h=307",
+    image:weatherapp,
     tags: [
       "Node.js", "Express.js", "Ejs", "OpenWeather API", "Github"
     ],
@@ -603,7 +715,7 @@ export const projects = [
     date: "June 2022 - October 2022",
     description:
       "A web application related to a library management system and it's operations. Contributed to this system by implementing the system frontend and backend.",
-    image:"https://www.skoolbeep.com/blog/wp-content/uploads/2020/12/WHAT-IS-THE-PURPOSE-OF-A-LIBRARY-MANAGEMENT-SYSTEM-min.png",
+    image:library,
     tags: [
       "React.js", "Node.js", "Express.js", "MongoDB", "Github"
     ],
@@ -616,7 +728,7 @@ export const projects = [
     date: "September 2024 - November 2024",
     description:
       "A simple application related to a Bicycle Product promoting page (for Lumuala(not official)).",
-    image:"https://img.freepik.com/premium-vector/back-bike-landing-page-template_103645-116.jpg?w=900",
+    image:bike,
     tags: [
       "React.js", "Bootstrap", "JavaScript", "Github"
     ],
@@ -629,7 +741,7 @@ export const projects = [
     date: "January 2022 - April 2022",
     description:
       "A simple application related to a Roll a Dice Scenario. Implemented the whole application.",
-    image:"https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fit,w_730,h_487/stock%2FGettyImages-81896744_kfaikl",
+    image:dicegame,
     tags: [
       "HTML", "CSS", "JavaScript", "Github"
     ],
@@ -642,4 +754,5 @@ export const TimeLineData = [
   { year: 2021, text: "Started my journey." },
   { year: 2023, text: "Started my own career as an fullstack software engineer intern." },
   { year: 2024, text: "Finished internship & now looking for a new role." },
+  { year: 2025, text: "Started my journey as an Associate Software Engineer & now looking for a new opportunity." },
 ];
