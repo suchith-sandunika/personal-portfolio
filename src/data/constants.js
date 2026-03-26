@@ -76,7 +76,7 @@ import vercel from "../images/technologies/other/vercel.png";
 import vitest from "../images/technologies/other/vitest.webp";
 
 import android_studio from "../images/technologies/tools/android_studio.png";
-import clickup from "../images/technologies/tools/clickup1.png";
+import clickup from "../images/technologies/tools/clickup111.png";
 import slack from "../images/technologies/tools/slack.png";
 import compass from "../images/technologies/tools/compass1.png";
 import intellij from "../images/technologies/tools/IntelliJ.png";
