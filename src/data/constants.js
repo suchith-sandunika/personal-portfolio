@@ -31,18 +31,18 @@ import library from "../images/projects/library.jpg";
 import android from "../images/technologies/frontend/android.png";
 import react from "../images/technologies/frontend/react.png";
 import angular from "../images/technologies/frontend/angular.webp";
-import next from "../images/technologies/frontend/nextjs.jpg";
+import next from "../images/technologies/frontend/next1.png";
 import vue from "../images/technologies/frontend/vue.png";
 import html from "../images/technologies/frontend/html.png";
 import css from "../images/technologies/frontend/css.png";
 import bootstrap from "../images/technologies/frontend/bootstrap.png";
 import tailwind from "../images/technologies/frontend/tailwind.png";
 import jquery from "../images/technologies/frontend/jquery.webp";
-import redux from "../images/technologies/frontend/redux.png";
+import redux from "../images/technologies/frontend/redux1.png";
 
 import rest from "../images/technologies/backend/rest.png";
-import gql from "../images/technologies/backend/graphql.png";
-import sb from "../images/technologies/backend/springboot.png";
+import gql from "../images/technologies/backend/graphql1.png";
+import sb from "../images/technologies/backend/sb.png";
 import node from "../images/technologies/backend/node.png";
 import nest from "../images/technologies/backend/nest.png";
 import apollo from "../images/technologies/backend/apollo.png";
@@ -50,7 +50,7 @@ import express from "../images/technologies/backend/express.webp";
 import electron from "../images/technologies/backend/electron.webp";
 
 import mariadb from "../images/technologies/database/mariadb.png";
-import mongodb from "../images/technologies/database/mongo.jpg";
+import mongodb from "../images/technologies/database/mongo11.png";
 import mysql from "../images/technologies/database/mysql.png";
 import neo4j from "../images/technologies/database/neo4j.png";
 import postgres from "../images/technologies/database/postgres.png";
@@ -76,9 +76,9 @@ import vercel from "../images/technologies/other/vercel.png";
 import vitest from "../images/technologies/other/vitest.webp";
 
 import android_studio from "../images/technologies/tools/android_studio.png";
-import clickup from "../images/technologies/tools/clickup.png";
+import clickup from "../images/technologies/tools/clickup1.png";
 import slack from "../images/technologies/tools/slack.png";
-import compass from "../images/technologies/tools/compass.webp";
+import compass from "../images/technologies/tools/compass1.png";
 import intellij from "../images/technologies/tools/IntelliJ.png";
 import postman from "../images/technologies/tools/postman.png";
 import insomnia from "../images/technologies/tools/Insomnia.png";
@@ -87,7 +87,7 @@ import webstorm from "../images/technologies/tools/webstorm.webp";
 import vscode from "../images/technologies/tools/vscode.png";
 import phpstorm from "../images/technologies/tools/phpstorm.png";
 import workbench from "../images/technologies/tools/workbench.png";
-import pgadmin from "../images/technologies/tools/pgadmin.png";
+import pgadmin from "../images/technologies/tools/pgadmin1.png";
 import xampp from "../images/technologies/tools/xampp.png";
 
 export const Bio = {
