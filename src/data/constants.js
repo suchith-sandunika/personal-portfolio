@@ -107,9 +107,9 @@ export const Bio = {
     // "Self-Learner"
   ],
   description:
-    "A person with a strong foundation in Computer Science Fundamentals, a strong mindset and a good devotion to each work I do. I am also with a good      knowledge about English, Programming, Frameworks, technologies and many things related to Software Engineering field.",
+    "A highly motivated individual with a strong foundation in Computer Science fundamentals and a disciplined, results-driven mindset. I am dedicated to delivering high-quality work and continuously improving my skills. I possess solid proficiency in English and have a good understanding of programming languages, frameworks, and modern technologies, along with a broad knowledge of the Software Engineering domain.",
   github: "https://github.com/suchith-sandunika",
-  resume: "https://drive.google.com/file/d/1MG1QP-e6pbK9abTFSZpLATuAqwhbfQ5c/view?usp=drive_link",
+  resume: "https://drive.google.com/file/d/1Bb_g_oQzEp6ub-go5VE8rJv_KBvEePw7/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/suchith-sandunika",
   twitter: "https://twitter.com/esuchith",
   instagram: "https://www.instagram.com/_suchith_sandunika_",
