@@ -14,6 +14,7 @@ import sololearn from "../images/courses/Sololearn.jpg";
 import greatlearning from "../images/courses/GreatLearning.png";
 
 import workyapp from "../images/projects/workyapp.png";
+import tvsupreme from "../images/projects/tvsupreme.jpg";
 import cranco from "../images/projects/cranco.png";
 import coopmis from "../images/projects/coopmis.jpg";
 import bookfiezta from "../images/projects/bookfiezta.jpg";
@@ -28,7 +29,6 @@ import bike from "../images/projects/bike.jpg";
 import employee from "../images/projects/employeemngsys.webp";
 import library from "../images/projects/library.jpg";
 
-import android from "../images/technologies/frontend/android.png";
 import react from "../images/technologies/frontend/react.png";
 import angular from "../images/technologies/frontend/angular.webp";
 import next from "../images/technologies/frontend/next1.png";
@@ -48,6 +48,12 @@ import nest from "../images/technologies/backend/nest.png";
 import apollo from "../images/technologies/backend/apollo.png";
 import express from "../images/technologies/backend/express.webp";
 import electron from "../images/technologies/backend/electron.webp";
+import laravel from "../images/technologies/backend/laravel.png";
+
+import android from "../images/technologies/mobile/android.png";
+import flutter from "../images/technologies/mobile/flutter.png";
+import xml from "../images/technologies/mobile/xml.png";
+import gradle from "../images/technologies/mobile/gradle.png";
 
 import mariadb from "../images/technologies/database/mariadb.png";
 import mongodb from "../images/technologies/database/mongo11.png";
@@ -109,7 +115,7 @@ export const Bio = {
   description:
     "A highly motivated individual with a strong foundation in Computer Science fundamentals and a disciplined, results-driven mindset. I am dedicated to delivering high-quality work and continuously improving my skills. I possess solid proficiency in English and have a good understanding of programming languages, frameworks, and modern technologies, along with a broad knowledge of the Software Engineering domain.",
   github: "https://github.com/suchith-sandunika",
-  resume: "https://drive.google.com/file/d/1Bb_g_oQzEp6ub-go5VE8rJv_KBvEePw7/view?usp=drive_link",
+  resume: "https://drive.google.com/file/d/16C2NzLyXySBR5vyYpD5baUSqD4MxWgw0/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/suchith-sandunika",
   twitter: "https://twitter.com/esuchith",
   instagram: "https://www.instagram.com/_suchith_sandunika_",
@@ -118,12 +124,8 @@ export const Bio = {
 
 export const skills = [
   {
-    title: "Frontend",
+    title: "Frontend Development",
     skills: [
-      {
-        name: "Android",
-        image: android,
-      },
       {
         name: "React.js",
         image: react,
@@ -167,7 +169,7 @@ export const skills = [
     ],
   },
   {
-    title: "Backend",
+    title: "Backend Development",
     skills: [
       {
         name: "REST",
@@ -180,6 +182,10 @@ export const skills = [
       {
         name: "Java Spring Boot",
         image: sb,
+      },
+      {
+        name: "Laravel",
+        image: laravel,
       },
       {
         name: "Node.js",
@@ -201,6 +207,27 @@ export const skills = [
         name: "Electron.js",
         image: electron,
       }
+    ],
+  },
+  {
+    title: "Mobile Development",
+    skills: [
+      {
+        name: "Android Native",
+        image: android,
+      },
+      {
+        name: "Flutter",
+        image: flutter,
+      },
+      {
+        name: "XML",
+        image: xml,
+      },
+      {
+        name: "Gradle",
+        image: gradle,
+      },
     ],
   },
   {
@@ -378,13 +405,15 @@ export const experiences = [
       id: 2,
       img: worky,
       role: "Associate Software Engineer",
-      company: "Worky (Pvt) Ltd",
+      company: "Worky (Pvt) Ltd - IT Team",
       date: "July 2025 - Present",
-      desc: "Contributing to the ongoing projects in the Company - A Provider App (Worky App), Tasker App (Worky Tasker), etc.",
+      desc: "Contributing to the ongoing projects in the Company - Worky User App (Worky App), Worky Tasker App (Worky Tasker), TVSupreme App",
       skills: [
-        "Android",
+        "Android Native",
+        "Flutter",
         "Java",
         "PHP",
+        "Laravel",
         "MySQL",
         "Firebase",
         "XML",
@@ -521,12 +550,29 @@ export const education = [
 export const projects = [
     {
       id: 0,
+      title: "TVSupreme",
+      date: "May 2026 - Present",
+      description: "The Official mobile App for Supreme TV and it's users to visit and watch latest TV programs, Live Streams, News, Sports programs, broadcasting through Supreme TV. Contributed to the system By implementing the app UI, Adding some new features, fixing bugs and modifying UI's. Visit 'https://play.google.com/store/apps/details?id=com.tvsupreme.user' to view the app.",
+      image:tvsupreme,
+      tags: [
+        "Flutter",
+        "Dart",
+        "Laravel",
+        "PHP",
+        "Firebase",
+        "MySQL"
+      ],
+      category: "android app",
+      github: "",
+    },
+    {
+      id: 1,
       title: "Worky App (User App)",
       date: "July 2025 - Present",
-      description: "The Official Worky App for users (A Super User App). Contributed to the system By Adding some new features, fixing bugs and modifying UI's in XML. Visit 'https://play.google.com/store/apps/details?id=com.wondermart.worky.app&pcampaignid=web_share' to view the app.",
+      description: "The Official Worky App for users (A Super User App). Contributed to the system By Adding some new features, fixing bugs and modifying UI's in XML. Visit 'https://play.google.com/store/apps/details?id=com.wondermart.worky.app' to view the app.",
       image:workyapp,
       tags: [
-        "Android",
+        "Android Native",
         "Java",
         "PHP",
         "MySQL",
@@ -537,7 +583,24 @@ export const projects = [
       github: "https://github.com/dulanjana93/workyApp-user.git",
     },
     {
-    id: 1,
+      id: 2,
+      title: "Worky Tasker (Provider App)",
+      date: "July 2025 - Present",
+      description: "The Official Worky App for service providers to comunicte with the users to serve for their needs. Contributed to the system By Adding some new features, fixing bugs and modifying UI's in XML. Visit 'https://play.google.com/store/apps/details?id=com.wondermart.driver.app' to view the app.",
+      image:workyapp,
+      tags: [
+        "Android Native",
+        "Java",
+        "PHP",
+        "MySQL",
+        "Firebase",
+        "XML"
+      ],
+      category: "android app",
+      github: "",
+    },
+    {
+    id: 3,
     title: "Gamage Recruiters Official Website",
     date: "February 2025 - May 2025",
     description: "The official website of Gamage Recruiters and it's operations. Contributed to system frontend and backend.",
@@ -555,7 +618,7 @@ export const projects = [
     github: "https://github.com/Wolferlk/GamageRecruiters.git",
   },
   {
-    id: 2,
+    id: 4,
     title: "Employee Management System - Gamage Recruiters",
     date: "November 2024 - February 2025",
     description:
@@ -574,7 +637,7 @@ export const projects = [
     github: "https://github.com/H-N-S-Abayawardhana/Client-Management-System-P2.git",
   },
   {
-    id: 3,
+    id: 5,
     title: "Coop-Mis",
     date: "November 2023 - May 2024",
     description:
@@ -593,7 +656,7 @@ export const projects = [
     github: "https://github.com/diproit/coopmis.git",
   },
   {
-    id: 4,
+    id: 6,
     title: "CranCo",
     date: "June 2023 - October 2023",
     description:
@@ -611,7 +674,7 @@ export const projects = [
     github: "https://github.com/mj-pavithra/CranCo.git",
   },
   {
-    id: 5,
+    id: 7,
     title: "NTSF",
     date: "April 2022 - May 2023",
     description:
@@ -622,7 +685,7 @@ export const projects = [
     github: "https://github.com/Suraif16/NTSF-frontend.git",
   },
   {
-    id: 6,
+    id: 8,
     title: "To Do App",
     date: "September 2023 - October 2023",
     description:"A simple Android App for task maintenance. Conributed to system backend.",
@@ -636,7 +699,7 @@ export const projects = [
     github: "https://github.com/SandaliKavi99/To-Do-App.git",
   },
   {
-    id: 7,
+    id: 9,
     title: "BookFiezta Online Book Store",
     date: "Januray 2025 - February 2025",
     description:"A Full Stack Application related to an online book store for users to buy books, rate books, add reviews about books, etc.",
@@ -655,7 +718,7 @@ export const projects = [
     github: "https://github.com/suchith-sandunika/BookFiezta-Frontend.git",
   },
   {
-    id: 8,
+    id: 10,
     title: "LearnGuide",
     date: "October 2024 - December 2024",
     description:"A simple Full-Stack App for related to a learning platform for students and teachers to promote there courses.",
@@ -674,7 +737,7 @@ export const projects = [
     github: "https://github.com/suchith-sandunika/LearnGuide-Backend.git",
   },
   {
-    id: 9,
+    id: 11,
     title: "Book Store",
     date: "June 2024 - August 2024",
     description:"A web application related to a Book store System. Contributed to the system and fixing the bugs.",
@@ -686,7 +749,7 @@ export const projects = [
     github: "https://github.com/suchith-sandunika/Book-Store.git",
   },
   {
-    id: 10,
+    id: 12,
     title: "Movie App",
     date: "August 2024 - October 2024",
     description:"A web application related to a Movie Details Store to view movies, watch trailers & add reviews. Contributed to the system and fixing the bugs.",
@@ -698,7 +761,7 @@ export const projects = [
     github: "https://github.com/suchith-sandunika/Movie-API.git",
   },
   {
-    id: 11,
+    id: 13,
     title: "Weather App",
     date: "July 2024 - September 2024",
     description:"A simple application related to find weather conditions and location. Contributed to the system and fixing the bugs.",
@@ -710,7 +773,7 @@ export const projects = [
     github: "https://github.com/suchith-sandunika/Weather-App.git",
   },
   {
-    id: 12,
+    id: 14,
     title: "Library Management System",
     date: "June 2022 - October 2022",
     description:
@@ -723,7 +786,7 @@ export const projects = [
     github: "https://github.com/C-Senanayake/Library-Management-System.git",
   },
   {
-    id: 13,
+    id: 15,
     title: "Bicycle Product Landing Page",
     date: "September 2024 - November 2024",
     description:
@@ -736,7 +799,7 @@ export const projects = [
     github: "https://github.com/suchith-sandunika/Landing-Page.git",
   },
   {
-    id: 14,
+    id: 16,
     title: "Dice Game",
     date: "January 2022 - April 2022",
     description:
