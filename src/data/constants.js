@@ -112,8 +112,7 @@ export const Bio = {
     // "Creative Thinker",
     // "Self-Learner"
   ],
-  description:
-    "A highly motivated individual with a strong foundation in Computer Science fundamentals and a disciplined, results-driven mindset. I am dedicated to delivering high-quality work and continuously improving my skills. I possess solid proficiency in English and have a good understanding of programming languages, frameworks, and modern technologies, along with a broad knowledge of the Software Engineering domain.",
+  description: "A highly motivated individual with a strong foundation in Computer Science fundamentals and a disciplined, results-driven mindset. I am dedicated to delivering high-quality work and continuously improving my skills. I possess solid proficiency in English and have a good understanding of programming languages, frameworks, and modern technologies, along with a broad knowledge of the Software Engineering domain.",
   github: "https://github.com/suchith-sandunika",
   resume: "https://drive.google.com/file/d/16C2NzLyXySBR5vyYpD5baUSqD4MxWgw0/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/suchith-sandunika",
@@ -406,8 +405,8 @@ export const experiences = [
       img: worky,
       role: "Associate Software Engineer",
       company: "Worky (Pvt) Ltd - IT Team",
-      date: "July 2025 - Present",
-      desc: "Contributing to the ongoing projects in the Company - Worky User App (Worky App), Worky Tasker App (Worky Tasker), TVSupreme App",
+      date: "July 2025 - November 2026",
+      desc: "Worked on company projects, mobile application development related to Worky User App (Worky App), Worky Tasker App (Worky Tasker), TVSupreme App and the Web version of the company website frontend",
       skills: [
         "Android Native",
         "Flutter",
