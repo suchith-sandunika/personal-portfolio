@@ -405,7 +405,7 @@ export const experiences = [
       img: worky,
       role: "Associate Software Engineer",
       company: "Worky (Pvt) Ltd - IT Team",
-      date: "July 2025 - November 2026",
+      date: "July 2025 - Present",
       desc: "Worked on company projects, mobile application development related to Worky User App (Worky App), Worky Tasker App (Worky Tasker), TVSupreme App and the Web version of the company website frontend",
       skills: [
         "Android Native",
