@@ -114,7 +114,7 @@ export const Bio = {
   ],
   description: "A highly motivated individual with a strong foundation in Computer Science fundamentals and a disciplined, results-driven mindset. I am dedicated to delivering high-quality work and continuously improving my skills. I possess solid proficiency in English and have a good understanding of programming languages, frameworks, and modern technologies, along with a broad knowledge of the Software Engineering domain.",
   github: "https://github.com/suchith-sandunika",
-  resume: "https://drive.google.com/file/d/16C2NzLyXySBR5vyYpD5baUSqD4MxWgw0/view?usp=drive_link",
+  resume: "https://drive.google.com/file/d/1YT7_DLr5JYl-nk6B_GibmPwMy1EwtG7v/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/suchith-sandunika",
   twitter: "https://twitter.com/esuchith",
   instagram: "https://www.instagram.com/_suchith_sandunika_",
